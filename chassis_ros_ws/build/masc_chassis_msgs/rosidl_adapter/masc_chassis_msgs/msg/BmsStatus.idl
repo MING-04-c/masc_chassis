@@ -1,0 +1,68 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from masc_chassis_msgs/msg/BmsStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module masc_chassis_msgs {
+  module msg {
+    module BmsStatus_Constants {
+      const uint8 BMS_HEALTH_TIMEOUT = 255;
+      const uint8 BMS_HEALTH_UNKNOWN = 0;
+      const uint8 BMS_HEALTH_GOOD = 1;
+      const uint8 BMS_HEALTH_OVERHEAT = 2;
+      const uint8 BMS_HEALTH_DEAD = 3;
+      const uint8 BMS_HEALTH_OVERVOLTAGE = 4;
+      const uint8 BMS_HEALTH_UNSPEC_FAILURE = 5;
+      const uint8 BMS_HEALTH_COLD = 6;
+      const uint8 BMS_HEALTH_WATCHDOG_TIMER_EXPIRE = 7;
+      const uint8 BMS_HEALTH_SAFETY_TIMER_EXPIRE = 8;
+    };
+    @verbatim (language="comment", text=
+      "Function: Unified BMS / power-system status." "\n"
+      "Msg Name: BmsStatus")
+    struct BmsStatus {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "单位：%，电池剩余电量，范围 0-100")
+      uint8 bat_soc;
+
+      @verbatim (language="comment", text=
+        "单位：%，电池健康度，范围 0-100")
+      uint8 bat_soh;
+
+      @verbatim (language="comment", text=
+        "单位：V，电池电压")
+      double bat_voltage;
+
+      @verbatim (language="comment", text=
+        "单位：A，电池电流，放电可为负值")
+      double bat_current;
+
+      @verbatim (language="comment", text=
+        "单位：V，电池满电电压/电源系统允许最大电压")
+      double bat_max_voltage;
+
+      @verbatim (language="comment", text=
+        "单位：A，电源系统允许最大电流")
+      double bat_max_current;
+
+      @verbatim (language="comment", text=
+        "单位：degC，电池最高温度")
+      double bat_temp_max;
+
+      @verbatim (language="comment", text=
+        "单位：degC，电池最低温度")
+      double bat_temp_min;
+
+      @verbatim (language="comment", text=
+        "单位：无，BMS 健康状态，见 BMS_HEALTH_* 常量")
+      uint8 bms_health;
+
+      @verbatim (language="comment", text=
+        "单位：次，电池循环次数")
+      uint16 bms_cycle_count;
+    };
+  };
+};

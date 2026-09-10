@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "masc_chassis_msgs/srv/CalibrateServo_Request",
+      "fields": [
+        {
+          "name": "servo_id",
+          "type": {
+            "type_id": 5,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "masc_chassis_msgs/srv/CalibrateServo_Request",
+      "hash_string": "RIHS01_709055466ac2eeec8ec2d083a45ae3b18d7b5851b48528a576e48944b6333ac8"
+    }
+  ]
+}

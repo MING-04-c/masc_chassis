@@ -1,0 +1,320 @@
+[1.497s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.498s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffabdfecc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffabfb3470>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffabfb3470>>)
+[1.871s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.871s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.871s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.871s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.871s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.872s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.872s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tiema/project/masc_chassis/chassis_ros_ws'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_can_sdk) by extensions ['ignore', 'ignore_ament_install']
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_can_sdk) by extension 'ignore'
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_can_sdk) by extension 'ignore_ament_install'
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_can_sdk) by extensions ['colcon_pkg']
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_can_sdk) by extension 'colcon_pkg'
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_can_sdk) by extensions ['colcon_meta']
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_can_sdk) by extension 'colcon_meta'
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_can_sdk) by extensions ['ros']
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_can_sdk) by extension 'ros'
+[2.090s] DEBUG:colcon.colcon_core.package_identification:Package 'src/masc_chassis_can_sdk' with type 'ros.ament_cmake' and name 'masc_chassis_can_sdk'
+[2.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_msgs) by extension 'ignore'
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_msgs) by extension 'ignore_ament_install'
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_msgs) by extensions ['colcon_pkg']
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_msgs) by extension 'colcon_pkg'
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_msgs) by extensions ['colcon_meta']
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_msgs) by extension 'colcon_meta'
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_msgs) by extensions ['ros']
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_msgs) by extension 'ros'
+[2.102s] DEBUG:colcon.colcon_core.package_identification:Package 'src/masc_chassis_msgs' with type 'ros.ament_cmake' and name 'masc_chassis_msgs'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_ros_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_ros_driver) by extension 'ignore'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_ros_driver) by extension 'ignore_ament_install'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_ros_driver) by extensions ['colcon_pkg']
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_ros_driver) by extension 'colcon_pkg'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_ros_driver) by extensions ['colcon_meta']
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_ros_driver) by extension 'colcon_meta'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_ros_driver) by extensions ['ros']
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/masc_chassis_ros_driver) by extension 'ros'
+[2.116s] DEBUG:colcon.colcon_core.package_identification:Package 'src/masc_chassis_ros_driver' with type 'ros.ament_cmake' and name 'masc_chassis_ros_driver'
+[2.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.261s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 194 installed packages in /opt/ros/jazzy
+[2.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.576s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_can_sdk' build argument 'cmake_args' from command line to 'None'
+[2.576s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_can_sdk' build argument 'cmake_target' from command line to 'None'
+[2.576s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_can_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.576s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_can_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[2.576s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_can_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[2.576s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_can_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[2.576s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_can_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[2.576s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_can_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[2.577s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_can_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.577s] DEBUG:colcon.colcon_core.verb:Building package 'masc_chassis_can_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk', 'merge_install': False, 'path': '/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_can_sdk', 'symlink_install': False, 'test_result_base': None}
+[2.578s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_msgs' build argument 'cmake_args' from command line to 'None'
+[2.578s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_msgs' build argument 'cmake_target' from command line to 'None'
+[2.578s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.578s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.578s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.578s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.578s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.578s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.578s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.578s] DEBUG:colcon.colcon_core.verb:Building package 'masc_chassis_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs', 'merge_install': False, 'path': '/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs', 'symlink_install': False, 'test_result_base': None}
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_ros_driver' build argument 'cmake_args' from command line to 'None'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_ros_driver' build argument 'cmake_target' from command line to 'None'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_ros_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_ros_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_ros_driver' build argument 'cmake_clean_first' from command line to 'False'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_ros_driver' build argument 'cmake_force_configure' from command line to 'False'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_ros_driver' build argument 'ament_cmake_args' from command line to 'None'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_ros_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'masc_chassis_ros_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.580s] DEBUG:colcon.colcon_core.verb:Building package 'masc_chassis_ros_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver', 'merge_install': False, 'path': '/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_ros_driver', 'symlink_install': False, 'test_result_base': None}
+[2.580s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.583s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.584s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_can_sdk' with build type 'ament_cmake'
+[2.584s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_can_sdk'
+[2.621s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.622s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.623s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.648s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs' with build type 'ament_cmake'
+[2.650s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs'
+[2.650s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.651s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_can_sdk -DCMAKE_INSTALL_PREFIX=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk
+[2.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs -DCMAKE_INSTALL_PREFIX=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs
+[6.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_can_sdk -DCMAKE_INSTALL_PREFIX=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk
+[6.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk -- -j4 -l4
+[18.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs -DCMAKE_INSTALL_PREFIX=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs
+[18.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs -- -j4 -l4
+[26.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk -- -j4 -l4
+[26.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk
+[26.164s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(masc_chassis_can_sdk)
+[26.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk
+[26.227s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk' for CMake module files
+[26.232s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk' for CMake config files
+[26.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('masc_chassis_can_sdk', 'cmake_prefix_path')
+[26.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/hook/cmake_prefix_path.ps1'
+[26.241s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/hook/cmake_prefix_path.dsv'
+[26.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/hook/cmake_prefix_path.sh'
+[26.250s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/lib'
+[26.250s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/bin'
+[26.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('masc_chassis_can_sdk', 'path')
+[26.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/hook/path.ps1'
+[26.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/hook/path.dsv'
+[26.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/hook/path.sh'
+[26.254s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/lib/pkgconfig/masc_chassis_can_sdk.pc'
+[26.255s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/lib/python3.12/site-packages'
+[26.255s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/bin'
+[26.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('masc_chassis_can_sdk', 'pythonscriptspath')
+[26.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/hook/pythonscriptspath.ps1'
+[26.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/hook/pythonscriptspath.dsv'
+[26.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/hook/pythonscriptspath.sh'
+[26.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/package.ps1'
+[26.265s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/package.dsv'
+[26.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/package.sh'
+[26.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/package.bash'
+[26.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/package.zsh'
+[26.280s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/colcon-core/packages/masc_chassis_can_sdk)
+[26.282s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(masc_chassis_can_sdk)
+[26.286s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk' for CMake module files
+[26.288s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk' for CMake config files
+[26.288s] Level 1:colcon.colcon_core.shell:create_environment_hook('masc_chassis_can_sdk', 'cmake_prefix_path')
+[26.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/hook/cmake_prefix_path.ps1'
+[26.290s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/hook/cmake_prefix_path.dsv'
+[26.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/hook/cmake_prefix_path.sh'
+[26.293s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/lib'
+[26.293s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/bin'
+[26.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('masc_chassis_can_sdk', 'path')
+[26.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/hook/path.ps1'
+[26.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/hook/path.dsv'
+[26.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/hook/path.sh'
+[26.300s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/lib/pkgconfig/masc_chassis_can_sdk.pc'
+[26.301s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/lib/python3.12/site-packages'
+[26.302s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/bin'
+[26.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('masc_chassis_can_sdk', 'pythonscriptspath')
+[26.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/hook/pythonscriptspath.ps1'
+[26.305s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/hook/pythonscriptspath.dsv'
+[26.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/hook/pythonscriptspath.sh'
+[26.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/package.ps1'
+[26.314s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/package.dsv'
+[26.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/package.sh'
+[26.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/package.bash'
+[26.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/package.zsh'
+[26.326s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/colcon-core/packages/masc_chassis_can_sdk)
+[135.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs -- -j4 -l4
+[135.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs
+[136.219s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(masc_chassis_msgs)
+[136.220s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs' for CMake module files
+[136.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs
+[136.222s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs' for CMake config files
+[136.223s] Level 1:colcon.colcon_core.shell:create_environment_hook('masc_chassis_msgs', 'cmake_prefix_path')
+[136.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/hook/cmake_prefix_path.ps1'
+[136.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/hook/cmake_prefix_path.dsv'
+[136.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/hook/cmake_prefix_path.sh'
+[136.227s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib'
+[136.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('masc_chassis_msgs', 'ld_library_path_lib')
+[136.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/hook/ld_library_path_lib.ps1'
+[136.228s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/hook/ld_library_path_lib.dsv'
+[136.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/hook/ld_library_path_lib.sh'
+[136.229s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/bin'
+[136.229s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/pkgconfig/masc_chassis_msgs.pc'
+[136.229s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages'
+[136.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('masc_chassis_msgs', 'pythonpath')
+[136.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/hook/pythonpath.ps1'
+[136.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/hook/pythonpath.dsv'
+[136.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/hook/pythonpath.sh'
+[136.232s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/bin'
+[136.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/package.ps1'
+[136.233s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/package.dsv'
+[136.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/package.sh'
+[136.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/package.bash'
+[136.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/package.zsh'
+[136.236s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/colcon-core/packages/masc_chassis_msgs)
+[136.236s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(masc_chassis_msgs)
+[136.237s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs' for CMake module files
+[136.237s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs' for CMake config files
+[136.238s] Level 1:colcon.colcon_core.shell:create_environment_hook('masc_chassis_msgs', 'cmake_prefix_path')
+[136.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/hook/cmake_prefix_path.ps1'
+[136.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/hook/cmake_prefix_path.dsv'
+[136.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/hook/cmake_prefix_path.sh'
+[136.241s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib'
+[136.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('masc_chassis_msgs', 'ld_library_path_lib')
+[136.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/hook/ld_library_path_lib.ps1'
+[136.242s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/hook/ld_library_path_lib.dsv'
+[136.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/hook/ld_library_path_lib.sh'
+[136.243s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/bin'
+[136.243s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/pkgconfig/masc_chassis_msgs.pc'
+[136.244s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages'
+[136.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('masc_chassis_msgs', 'pythonpath')
+[136.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/hook/pythonpath.ps1'
+[136.245s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/hook/pythonpath.dsv'
+[136.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/hook/pythonpath.sh'
+[136.249s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/bin'
+[136.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/package.ps1'
+[136.251s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/package.dsv'
+[136.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/package.sh'
+[136.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/package.bash'
+[136.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/package.zsh'
+[136.256s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/colcon-core/packages/masc_chassis_msgs)
+[136.258s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_ros_driver' with build type 'ament_cmake'
+[136.258s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_ros_driver'
+[136.259s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[136.259s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[136.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver': AMENT_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/lib:${LD_LIBRARY_PATH} PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/bin:${PATH} PYTHONPATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_ros_driver -DCMAKE_INSTALL_PREFIX=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver
+[139.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver' returned '0': AMENT_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/lib:${LD_LIBRARY_PATH} PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/bin:${PATH} PYTHONPATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_ros_driver -DCMAKE_INSTALL_PREFIX=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver
+[139.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver': AMENT_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/lib:${LD_LIBRARY_PATH} PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/bin:${PATH} PYTHONPATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver -- -j4 -l4
+[241.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver' returned '0': AMENT_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/lib:${LD_LIBRARY_PATH} PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/bin:${PATH} PYTHONPATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver -- -j4 -l4
+[241.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver': AMENT_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/lib:${LD_LIBRARY_PATH} PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/bin:${PATH} PYTHONPATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver
+[241.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(masc_chassis_ros_driver)
+[241.977s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver' for CMake module files
+[241.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver' returned '0': AMENT_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/lib:${LD_LIBRARY_PATH} PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/bin:${PATH} PYTHONPATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver
+[241.979s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver' for CMake config files
+[241.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('masc_chassis_ros_driver', 'cmake_prefix_path')
+[241.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/hook/cmake_prefix_path.ps1'
+[241.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/hook/cmake_prefix_path.dsv'
+[242.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/hook/cmake_prefix_path.sh'
+[242.009s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/lib'
+[242.009s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/bin'
+[242.009s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/lib/pkgconfig/masc_chassis_ros_driver.pc'
+[242.010s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/lib/python3.12/site-packages'
+[242.010s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/bin'
+[242.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/package.ps1'
+[242.012s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/package.dsv'
+[242.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/package.sh'
+[242.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/package.bash'
+[242.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/package.zsh'
+[242.023s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/colcon-core/packages/masc_chassis_ros_driver)
+[242.025s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(masc_chassis_ros_driver)
+[242.025s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver' for CMake module files
+[242.026s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver' for CMake config files
+[242.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('masc_chassis_ros_driver', 'cmake_prefix_path')
+[242.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/hook/cmake_prefix_path.ps1'
+[242.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/hook/cmake_prefix_path.dsv'
+[242.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/hook/cmake_prefix_path.sh'
+[242.031s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/lib'
+[242.031s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/bin'
+[242.031s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/lib/pkgconfig/masc_chassis_ros_driver.pc'
+[242.031s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/lib/python3.12/site-packages'
+[242.032s] Level 1:colcon.colcon_core.environment:checking '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/bin'
+[242.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/package.ps1'
+[242.033s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/package.dsv'
+[242.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/package.sh'
+[242.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/package.bash'
+[242.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/package.zsh'
+[242.037s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/colcon-core/packages/masc_chassis_ros_driver)
+[242.038s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[242.039s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[242.039s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[242.039s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[242.150s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[242.150s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[242.150s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[242.700s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[242.701s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/local_setup.ps1'
+[242.708s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tiema/project/masc_chassis/chassis_ros_ws/install/_local_setup_util_ps1.py'
+[242.714s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/setup.ps1'
+[242.718s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/local_setup.sh'
+[242.722s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tiema/project/masc_chassis/chassis_ros_ws/install/_local_setup_util_sh.py'
+[242.724s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/setup.sh'
+[242.729s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/local_setup.bash'
+[242.735s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/setup.bash'
+[242.740s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/local_setup.zsh'
+[242.742s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tiema/project/masc_chassis/chassis_ros_ws/install/setup.zsh'

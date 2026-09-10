@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "masc_chassis_msgs__py",
+		"source" : "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs/masc_chassis_msgs__py"
+	}
+}

@@ -1,0 +1,80 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from masc_chassis_msgs/msg/ChassisStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module masc_chassis_msgs {
+  module msg {
+    module ChassisStatus_Constants {
+      const uint8 CHASSIS_STATE_UNKNOWN = 0;
+      const uint8 CHASSIS_STATE_ESTOP = 1;
+      const uint8 CHASSIS_STATE_TOW = 2;
+      const uint8 CHASSIS_STATE_FAULT = 3;
+      const uint8 CHASSIS_STATE_SELF_CHECK = 4;
+      const uint8 CHASSIS_STATE_PARK = 5;
+      const uint8 CHASSIS_STATE_REMOTE_CONTROL = 6;
+      const uint8 CHASSIS_STATE_COMM_CONTROL = 7;
+      const uint8 MOTION_MODE_DEFAULT_CHASSIS = 0;
+      const uint8 MOTION_MODE_PARK = 1;
+      const uint8 MOTION_MODE_ACKERMANN = 2;
+      const uint8 MOTION_MODE_SPIN = 3;
+      const uint8 MOTION_MODE_LATERAL = 4;
+      const uint8 MOTION_MODE_DIAGONAL = 5;
+    };
+    @verbatim (language="comment", text=
+      "Function: Chassis runtime status from motion mode and system info feedback." "\n"
+      "Msg Name: ChassisStatus")
+    struct ChassisStatus {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "单位：无，底盘显示状态，见 CHASSIS_STATE_* 常量")
+      uint8 chassis_state;
+
+      @verbatim (language="comment", text=
+        "单位：无，当前底盘运动模式，见 MOTION_MODE_* 常量")
+      uint8 current_motion_mode;
+
+      @verbatim (language="comment", text=
+        "单位：无，是否处于运动模式切换中")
+      boolean motion_mode_switching;
+
+      @verbatim (language="comment", text=
+        "单位：无，抱闸是否激活")
+      boolean brake_active;
+
+      @verbatim (language="comment", text=
+        "单位：无，是否低电量")
+      boolean low_battery;
+
+      @verbatim (language="comment", text=
+        "单位：无，是否倾角过大")
+      boolean excessive_tilt;
+
+      @verbatim (language="comment", text=
+        "单位：无，是否手动充电")
+      boolean manual_charging;
+
+      @verbatim (language="comment", text=
+        "单位：无，是否充电桩充电")
+      boolean dock_charging;
+
+      @verbatim (language="comment", text=
+        "单位：无，动力电源是否接通，来自主接触器状态")
+      boolean main_power_active;
+
+      @verbatim (language="comment", text=
+        "单位：无，障碍状态 flags，bit0 前，bit1 后，bit2 左前，bit3 左后，bit4 右前，bit5 右后")
+      uint8 obstacle_status_flags;
+
+      @verbatim (language="comment", text=
+        "单位：无，0x204 Byte0-Byte3 原始状态值，Byte0 主状态，Byte1 系统 flags，Byte2 障碍 flags，Byte3 预留")
+      uint32 system_status_flags;
+
+      @verbatim (language="comment", text=
+        "单位：无，底盘故障码 bitfield/raw code")
+      uint32 chassis_fault;
+    };
+  };
+};

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from masc_chassis_msgs/msg/ServoMotorArray.msg
+// generated code does not contain a copyright notice
+
+#include "masc_chassis_msgs/msg/ServoMotor.idl"
+#include "std_msgs/msg/Header.idl"
+
+module masc_chassis_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Function: Servo motor feedback array." "\n"
+      "Msg Name: ServoMotorArray")
+    struct ServoMotorArray {
+      std_msgs::msg::Header header;
+
+      sequence<masc_chassis_msgs::msg::ServoMotor> motors;
+    };
+  };
+};

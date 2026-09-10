@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from masc_chassis_msgs/msg/RcStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module masc_chassis_msgs {
+  module msg {
+    typedef int8 int8__7[7];
+    @verbatim (language="comment", text=
+      "Function: RC channel feedback." "\n"
+      "Msg Name: RcStatus")
+    struct RcStatus {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "单位：无，RC 遥控器是否在线")
+      boolean online;
+
+      @verbatim (language="comment", text=
+        "单位：无，RC 通道 CH0-CH6 原始值，范围 -100~100")
+      int8__7 channels;
+    };
+  };
+};

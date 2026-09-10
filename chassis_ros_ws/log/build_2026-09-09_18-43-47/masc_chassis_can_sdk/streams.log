@@ -1,0 +1,69 @@
+[0.087s] Invoking command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_can_sdk -DCMAKE_INSTALL_PREFIX=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk
+[1.920s] -- The CXX compiler identification is GNU 13.3.0
+[2.034s] -- Detecting CXX compiler ABI info
+[2.602s] -- Detecting CXX compiler ABI info - done
+[2.646s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.647s] -- Detecting CXX compile features
+[2.654s] -- Detecting CXX compile features - done
+[2.658s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.161s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.166s] -- Found Threads: TRUE  
+[3.193s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.605s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.307s] -- Configuring done (4.1s)
+[4.329s] -- Generating done (0.0s)
+[4.338s] -- Build files have been written to: /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk
+[4.348s] Invoked command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_can_sdk -DCMAKE_INSTALL_PREFIX=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk
+[4.352s] Invoking command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk -- -j4 -l4
+[4.501s] [  9%] [32mBuilding CXX object CMakeFiles/masc_chassis_can_sdk.dir/src/chassis_protocol.cpp.o[0m
+[7.420s] [ 18%] [32mBuilding CXX object CMakeFiles/masc_chassis_can_sdk.dir/src/socketcan_transport.cpp.o[0m
+[8.728s] [ 27%] [32mBuilding CXX object CMakeFiles/masc_chassis_can_sdk.dir/src/unsupported_can_transport.cpp.o[0m
+[9.688s] [ 36%] [32mBuilding CXX object CMakeFiles/masc_chassis_can_sdk.dir/src/chassis_sdk.cpp.o[0m
+[14.870s] [ 45%] [32m[1mLinking CXX static library libmasc_chassis_can_sdk.a[0m
+[15.172s] [ 45%] Built target masc_chassis_can_sdk
+[15.259s] [ 54%] [32mBuilding CXX object CMakeFiles/masc_chassis_can_sdk_demo.dir/examples/chassis_can_sdk_demo.cpp.o[0m
+[18.343s] [ 63%] [32m[1mLinking CXX executable masc_chassis_can_sdk_demo[0m
+[18.677s] [ 63%] Built target masc_chassis_can_sdk_demo
+[18.748s] [ 72%] [32mBuilding CXX object CMakeFiles/masc_chassis_can_sdk_runtime_tests.dir/tests/runtime_tests.cpp.o[0m
+[21.367s] [ 81%] [32m[1mLinking CXX executable masc_chassis_can_sdk_runtime_tests[0m
+[21.673s] [ 81%] Built target masc_chassis_can_sdk_runtime_tests
+[21.730s] [ 90%] [32mBuilding CXX object CMakeFiles/masc_chassis_can_sdk_protocol_tests.dir/tests/protocol_tests.cpp.o[0m
+[22.989s] [100%] [32m[1mLinking CXX executable masc_chassis_can_sdk_protocol_tests[0m
+[23.350s] [100%] Built target masc_chassis_can_sdk_protocol_tests
+[23.455s] Invoked command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk -- -j4 -l4
+[23.497s] Invoking command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk
+[23.527s] -- Install configuration: ""
+[23.527s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/lib/libmasc_chassis_can_sdk.a
+[23.533s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/include
+[23.534s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/include/masc_chassis_can_sdk
+[23.535s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/include/masc_chassis_can_sdk/types.hpp
+[23.535s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/include/masc_chassis_can_sdk/chassis_protocol.hpp
+[23.535s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/include/masc_chassis_can_sdk/can_frame.hpp
+[23.535s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/include/masc_chassis_can_sdk/chassis_sdk.hpp
+[23.535s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/include/masc_chassis_can_sdk/socketcan_transport.hpp
+[23.537s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/include/masc_chassis_can_sdk/state_cache.hpp
+[23.539s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/include/masc_chassis_can_sdk/unsupported_can_transport.hpp
+[23.540s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/include/masc_chassis_can_sdk/can_transport.hpp
+[23.541s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/bin/masc_chassis_can_sdk_demo
+[23.543s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/environment/library_path.sh
+[23.545s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/environment/library_path.dsv
+[23.547s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/ament_index/resource_index/package_run_dependencies/masc_chassis_can_sdk
+[23.551s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/ament_index/resource_index/parent_prefix_path/masc_chassis_can_sdk
+[23.551s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/environment/ament_prefix_path.sh
+[23.555s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/environment/ament_prefix_path.dsv
+[23.559s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/environment/path.sh
+[23.560s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/environment/path.dsv
+[23.563s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/local_setup.bash
+[23.564s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/local_setup.sh
+[23.564s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/local_setup.zsh
+[23.565s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/local_setup.dsv
+[23.565s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/package.dsv
+[23.569s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/ament_index/resource_index/packages/masc_chassis_can_sdk
+[23.570s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/cmake/export_masc_chassis_can_sdkExport.cmake
+[23.570s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/cmake/export_masc_chassis_can_sdkExport-noconfig.cmake
+[23.572s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/cmake/ament_cmake_export_targets-extras.cmake
+[23.572s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.574s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/cmake/masc_chassis_can_sdkConfig.cmake
+[23.577s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/cmake/masc_chassis_can_sdkConfig-version.cmake
+[23.589s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/package.xml
+[23.592s] Invoked command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk

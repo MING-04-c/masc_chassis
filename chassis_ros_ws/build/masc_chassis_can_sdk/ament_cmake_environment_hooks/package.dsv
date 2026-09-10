@@ -1,0 +1,4 @@
+source;share/masc_chassis_can_sdk/local_setup.bash
+source;share/masc_chassis_can_sdk/local_setup.dsv
+source;share/masc_chassis_can_sdk/local_setup.sh
+source;share/masc_chassis_can_sdk/local_setup.zsh

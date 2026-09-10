@@ -1,0 +1,23 @@
+{
+  "package_name": "masc_chassis_msgs",
+  "non_idl_tuples": [
+    "/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs:msg/BmsStatus.msg",
+    "/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs:msg/CanFrameStats.msg",
+    "/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs:msg/CanFrameStatsArray.msg",
+    "/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs:msg/ChassisStatus.msg",
+    "/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs:msg/CommStatus.msg",
+    "/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs:msg/DriveMotor.msg",
+    "/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs:msg/DriveMotorArray.msg",
+    "/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs:msg/DriveMotorStatus.msg",
+    "/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs:msg/DriveMotorStatusArray.msg",
+    "/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs:msg/RcStatus.msg",
+    "/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs:msg/ServoMotor.msg",
+    "/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs:msg/ServoMotorArray.msg",
+    "/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs:msg/ServoMotorStatus.msg",
+    "/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs:msg/ServoMotorStatusArray.msg",
+    "/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs:srv/ClearFault.srv",
+    "/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs:srv/CalibrateServo.srv",
+    "/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs:srv/SetMotionMode.srv",
+    "/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs:srv/SetTowMode.srv"
+  ]
+}

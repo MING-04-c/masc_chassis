@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "masc_chassis_msgs/srv/SetTowMode_Request",
+      "fields": [
+        {
+          "name": "enable",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "masc_chassis_msgs/srv/SetTowMode_Request",
+      "hash_string": "RIHS01_070daad2a1c11a3f36d302782be5332bf3ef9ea488d2a76d272c4575ddc56068"
+    }
+  ]
+}

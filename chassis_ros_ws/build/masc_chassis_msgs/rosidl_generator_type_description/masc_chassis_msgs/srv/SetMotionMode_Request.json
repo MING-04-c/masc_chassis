@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "masc_chassis_msgs/srv/SetMotionMode_Request",
+      "fields": [
+        {
+          "name": "motion_mode",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "masc_chassis_msgs/srv/SetMotionMode_Request",
+      "hash_string": "RIHS01_f3a9c10d99dac6ab32930a3ecd8f474e4bf812fff07018246fc4bc61b2385f56"
+    }
+  ]
+}

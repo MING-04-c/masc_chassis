@@ -1,0 +1,843 @@
+[0.075s] Invoking command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs -DCMAKE_INSTALL_PREFIX=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs
+[1.809s] -- The C compiler identification is GNU 13.3.0
+[2.027s] -- The CXX compiler identification is GNU 13.3.0
+[2.085s] -- Detecting C compiler ABI info
+[2.602s] -- Detecting C compiler ABI info - done
+[2.631s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.633s] -- Detecting C compile features
+[2.633s] -- Detecting C compile features - done
+[2.674s] -- Detecting CXX compiler ABI info
+[3.085s] -- Detecting CXX compiler ABI info - done
+[3.105s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.105s] -- Detecting CXX compile features
+[3.107s] -- Detecting CXX compile features - done
+[3.130s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.636s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.961s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.985s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.144s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.292s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.308s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[7.121s] -- Found ament_cmake_cppcheck: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[7.144s] -- Found ament_cmake_cpplint: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[7.161s] -- Found ament_cmake_uncrustify: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[7.193s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[8.905s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.324s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.343s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[11.934s] -- Found PythonExtra: /usr/bin/python3  
+[14.946s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[15.179s] -- Found ament_cmake_flake8: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[15.196s] -- Found ament_cmake_pep257: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[15.356s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[15.412s] -- Configuring done (15.3s)
+[15.680s] -- Generating done (0.2s)
+[15.756s] -- Build files have been written to: /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs
+[15.790s] Invoked command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs -DCMAKE_INSTALL_PREFIX=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs
+[15.792s] Invoking command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs -- -j4 -l4
+[16.006s] [  1%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[19.958s] [  1%] Built target masc_chassis_msgs__rs
+[20.047s] [  1%] Built target ament_cmake_python_copy_masc_chassis_msgs
+[20.112s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[23.998s] [  2%] Built target masc_chassis_msgs__rosidl_generator_type_description
+[24.512s] running egg_info
+[24.515s] creating masc_chassis_msgs.egg-info
+[24.570s] writing masc_chassis_msgs.egg-info/PKG-INFO
+[24.571s] writing dependency_links to masc_chassis_msgs.egg-info/dependency_links.txt
+[24.572s] writing top-level names to masc_chassis_msgs.egg-info/top_level.txt
+[24.575s] writing manifest file 'masc_chassis_msgs.egg-info/SOURCES.txt'
+[24.693s] reading manifest file 'masc_chassis_msgs.egg-info/SOURCES.txt'
+[24.698s] writing manifest file 'masc_chassis_msgs.egg-info/SOURCES.txt'
+[24.817s] [  2%] Built target ament_cmake_python_build_masc_chassis_msgs_egg
+[24.929s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[30.977s] [  2%] Built target masc_chassis_msgs__cpp
+[31.010s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[38.549s] [  3%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/bms_status__description.c.o[0m
+[38.706s] [  4%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/can_frame_stats__description.c.o[0m
+[38.806s] [  4%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/can_frame_stats__functions.c.o[0m
+[38.958s] [  5%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/can_frame_stats__type_support.c.o[0m
+[39.038s] [  5%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/can_frame_stats_array__description.c.o[0m
+[39.140s] [  6%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/can_frame_stats_array__functions.c.o[0m
+[39.304s] [  6%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/can_frame_stats_array__type_support.c.o[0m
+[39.401s] [  7%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/chassis_status__description.c.o[0m
+[39.524s] [  7%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/chassis_status__functions.c.o[0m
+[39.681s] [  8%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/chassis_status__type_support.c.o[0m
+[39.759s] [  8%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/comm_status__description.c.o[0m
+[39.855s] [  9%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/comm_status__functions.c.o[0m
+[39.959s] [  9%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/comm_status__type_support.c.o[0m
+[40.030s] [ 10%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/drive_motor__description.c.o[0m
+[40.111s] [ 10%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/drive_motor__functions.c.o[0m
+[40.204s] [ 11%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/drive_motor__type_support.c.o[0m
+[40.266s] [ 11%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/drive_motor_array__description.c.o[0m
+[40.352s] [ 12%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/drive_motor_array__functions.c.o[0m
+[40.454s] [ 12%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/drive_motor_array__type_support.c.o[0m
+[40.519s] [ 13%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/drive_motor_status__description.c.o[0m
+[40.603s] [ 13%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/drive_motor_status__functions.c.o[0m
+[40.706s] [ 14%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/drive_motor_status__type_support.c.o[0m
+[40.768s] [ 14%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/drive_motor_status_array__description.c.o[0m
+[40.853s] [ 15%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/drive_motor_status_array__functions.c.o[0m
+[40.952s] [ 15%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/drive_motor_status_array__type_support.c.o[0m
+[41.022s] [ 16%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/rc_status__description.c.o[0m
+[41.103s] [ 16%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/rc_status__functions.c.o[0m
+[41.199s] [ 17%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/rc_status__type_support.c.o[0m
+[41.262s] [ 17%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/servo_motor__description.c.o[0m
+[41.348s] [ 18%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/servo_motor__functions.c.o[0m
+[41.445s] [ 18%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/servo_motor__type_support.c.o[0m
+[41.510s] [ 19%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/servo_motor_array__description.c.o[0m
+[41.590s] [ 19%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/servo_motor_array__functions.c.o[0m
+[41.692s] [ 20%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/servo_motor_array__type_support.c.o[0m
+[41.763s] [ 20%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/servo_motor_status__description.c.o[0m
+[41.849s] [ 21%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/servo_motor_status__functions.c.o[0m
+[41.945s] [ 21%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/servo_motor_status__type_support.c.o[0m
+[42.014s] [ 21%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/servo_motor_status_array__description.c.o[0m
+[42.093s] [ 22%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/servo_motor_status_array__functions.c.o[0m
+[42.187s] [ 22%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/servo_motor_status_array__type_support.c.o[0m
+[42.254s] [ 23%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/srv/detail/clear_fault__description.c.o[0m
+[42.354s] [ 23%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/srv/detail/clear_fault__functions.c.o[0m
+[42.489s] [ 24%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/srv/detail/clear_fault__type_support.c.o[0m
+[42.565s] [ 24%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/srv/detail/calibrate_servo__description.c.o[0m
+[42.661s] [ 25%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/srv/detail/calibrate_servo__functions.c.o[0m
+[42.800s] [ 25%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/srv/detail/calibrate_servo__type_support.c.o[0m
+[42.875s] [ 26%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/srv/detail/set_motion_mode__description.c.o[0m
+[42.967s] [ 26%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/srv/detail/set_motion_mode__functions.c.o[0m
+[43.108s] [ 27%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/srv/detail/set_motion_mode__type_support.c.o[0m
+[43.186s] [ 27%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/srv/detail/set_tow_mode__description.c.o[0m
+[43.282s] [ 28%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/srv/detail/set_tow_mode__functions.c.o[0m
+[43.482s] [ 28%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/srv/detail/set_tow_mode__type_support.c.o[0m
+[43.576s] [ 28%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/bms_status__type_support.c.o[0m
+[43.652s] [ 29%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/masc_chassis_msgs/msg/detail/bms_status__functions.c.o[0m
+[43.777s] [ 30%] [32m[1mLinking C shared library libmasc_chassis_msgs__rosidl_generator_c.so[0m
+[43.947s] [ 30%] Built target masc_chassis_msgs__rosidl_generator_c
+[43.974s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[48.568s] [ 31%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/masc_chassis_msgs/msg/detail/bms_status__type_support_c.cpp.o[0m
+[49.667s] [ 32%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/masc_chassis_msgs/msg/detail/can_frame_stats__type_support_c.cpp.o[0m
+[50.775s] [ 32%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/masc_chassis_msgs/msg/detail/can_frame_stats_array__type_support_c.cpp.o[0m
+[51.700s] [ 33%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/masc_chassis_msgs/msg/detail/chassis_status__type_support_c.cpp.o[0m
+[52.706s] [ 33%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/masc_chassis_msgs/msg/detail/comm_status__type_support_c.cpp.o[0m
+[53.567s] [ 33%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/masc_chassis_msgs/msg/detail/drive_motor__type_support_c.cpp.o[0m
+[54.514s] [ 34%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/masc_chassis_msgs/msg/detail/drive_motor_array__type_support_c.cpp.o[0m
+[55.447s] [ 34%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/masc_chassis_msgs/msg/detail/drive_motor_status__type_support_c.cpp.o[0m
+[56.452s] [ 35%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/masc_chassis_msgs/msg/detail/drive_motor_status_array__type_support_c.cpp.o[0m
+[57.247s] [ 35%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/masc_chassis_msgs/msg/detail/rc_status__type_support_c.cpp.o[0m
+[58.246s] [ 36%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/masc_chassis_msgs/msg/detail/servo_motor__type_support_c.cpp.o[0m
+[59.254s] [ 36%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/masc_chassis_msgs/msg/detail/servo_motor_array__type_support_c.cpp.o[0m
+[60.160s] [ 37%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/masc_chassis_msgs/msg/detail/servo_motor_status__type_support_c.cpp.o[0m
+[61.023s] [ 37%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/masc_chassis_msgs/msg/detail/servo_motor_status_array__type_support_c.cpp.o[0m
+[61.899s] [ 38%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/masc_chassis_msgs/srv/detail/clear_fault__type_support_c.cpp.o[0m
+[62.888s] [ 38%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/masc_chassis_msgs/srv/detail/calibrate_servo__type_support_c.cpp.o[0m
+[63.831s] [ 39%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/masc_chassis_msgs/srv/detail/set_motion_mode__type_support_c.cpp.o[0m
+[64.678s] [ 39%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/masc_chassis_msgs/srv/detail/set_tow_mode__type_support_c.cpp.o[0m
+[65.657s] [ 40%] [32m[1mLinking CXX shared library libmasc_chassis_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[65.906s] [ 40%] Built target masc_chassis_msgs__rosidl_typesupport_fastrtps_c
+[65.931s] [ 40%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[69.994s] [ 41%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/masc_chassis_msgs/msg/detail/dds_fastrtps/bms_status__type_support.cpp.o[0m
+[70.885s] [ 41%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/masc_chassis_msgs/msg/detail/dds_fastrtps/can_frame_stats__type_support.cpp.o[0m
+[71.722s] [ 42%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/masc_chassis_msgs/msg/detail/dds_fastrtps/can_frame_stats_array__type_support.cpp.o[0m
+[72.629s] [ 42%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/masc_chassis_msgs/msg/detail/dds_fastrtps/chassis_status__type_support.cpp.o[0m
+[73.481s] [ 43%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/masc_chassis_msgs/msg/detail/dds_fastrtps/comm_status__type_support.cpp.o[0m
+[74.326s] [ 43%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/masc_chassis_msgs/msg/detail/dds_fastrtps/drive_motor__type_support.cpp.o[0m
+[75.125s] [ 44%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/masc_chassis_msgs/msg/detail/dds_fastrtps/drive_motor_array__type_support.cpp.o[0m
+[75.999s] [ 44%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/masc_chassis_msgs/msg/detail/dds_fastrtps/drive_motor_status__type_support.cpp.o[0m
+[77.106s] [ 45%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/masc_chassis_msgs/msg/detail/dds_fastrtps/drive_motor_status_array__type_support.cpp.o[0m
+[78.034s] [ 45%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/masc_chassis_msgs/msg/detail/dds_fastrtps/rc_status__type_support.cpp.o[0m
+[78.856s] [ 46%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/masc_chassis_msgs/msg/detail/dds_fastrtps/servo_motor__type_support.cpp.o[0m
+[79.679s] [ 46%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/masc_chassis_msgs/msg/detail/dds_fastrtps/servo_motor_array__type_support.cpp.o[0m
+[80.529s] [ 47%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/masc_chassis_msgs/msg/detail/dds_fastrtps/servo_motor_status__type_support.cpp.o[0m
+[81.368s] [ 47%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/masc_chassis_msgs/msg/detail/dds_fastrtps/servo_motor_status_array__type_support.cpp.o[0m
+[82.288s] [ 48%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/masc_chassis_msgs/srv/detail/dds_fastrtps/clear_fault__type_support.cpp.o[0m
+[83.376s] [ 48%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/masc_chassis_msgs/srv/detail/dds_fastrtps/calibrate_servo__type_support.cpp.o[0m
+[84.576s] [ 49%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/masc_chassis_msgs/srv/detail/dds_fastrtps/set_motion_mode__type_support.cpp.o[0m
+[85.773s] [ 49%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/masc_chassis_msgs/srv/detail/dds_fastrtps/set_tow_mode__type_support.cpp.o[0m
+[86.837s] [ 50%] [32m[1mLinking CXX shared library libmasc_chassis_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[87.133s] [ 50%] Built target masc_chassis_msgs__rosidl_typesupport_fastrtps_cpp
+[87.159s] [ 51%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[90.596s] [ 51%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/masc_chassis_msgs/msg/detail/bms_status__type_support.cpp.o[0m
+[91.131s] [ 52%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/masc_chassis_msgs/msg/detail/can_frame_stats__type_support.cpp.o[0m
+[91.655s] [ 52%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/masc_chassis_msgs/msg/detail/can_frame_stats_array__type_support.cpp.o[0m
+[92.262s] [ 53%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/masc_chassis_msgs/msg/detail/chassis_status__type_support.cpp.o[0m
+[92.887s] [ 53%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/masc_chassis_msgs/msg/detail/comm_status__type_support.cpp.o[0m
+[93.464s] [ 54%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/masc_chassis_msgs/msg/detail/drive_motor__type_support.cpp.o[0m
+[94.002s] [ 54%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/masc_chassis_msgs/msg/detail/drive_motor_array__type_support.cpp.o[0m
+[94.616s] [ 55%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/masc_chassis_msgs/msg/detail/drive_motor_status__type_support.cpp.o[0m
+[95.282s] [ 55%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/masc_chassis_msgs/msg/detail/drive_motor_status_array__type_support.cpp.o[0m
+[95.882s] [ 56%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/masc_chassis_msgs/msg/detail/rc_status__type_support.cpp.o[0m
+[96.423s] [ 56%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/masc_chassis_msgs/msg/detail/servo_motor__type_support.cpp.o[0m
+[96.968s] [ 57%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/masc_chassis_msgs/msg/detail/servo_motor_array__type_support.cpp.o[0m
+[97.602s] [ 57%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/masc_chassis_msgs/msg/detail/servo_motor_status__type_support.cpp.o[0m
+[98.183s] [ 58%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/masc_chassis_msgs/msg/detail/servo_motor_status_array__type_support.cpp.o[0m
+[98.779s] [ 58%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/masc_chassis_msgs/srv/detail/clear_fault__type_support.cpp.o[0m
+[99.486s] [ 59%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/masc_chassis_msgs/srv/detail/calibrate_servo__type_support.cpp.o[0m
+[100.195s] [ 59%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/masc_chassis_msgs/srv/detail/set_motion_mode__type_support.cpp.o[0m
+[100.899s] [ 60%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/masc_chassis_msgs/srv/detail/set_tow_mode__type_support.cpp.o[0m
+[101.612s] [ 60%] [32m[1mLinking CXX shared library libmasc_chassis_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[101.920s] [ 60%] Built target masc_chassis_msgs__rosidl_typesupport_introspection_cpp
+[101.949s] [ 61%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[104.655s] [ 61%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/masc_chassis_msgs/msg/bms_status__type_support.cpp.o[0m
+[105.183s] [ 62%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/masc_chassis_msgs/msg/can_frame_stats__type_support.cpp.o[0m
+[105.711s] [ 62%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/masc_chassis_msgs/msg/can_frame_stats_array__type_support.cpp.o[0m
+[106.255s] [ 63%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/masc_chassis_msgs/msg/chassis_status__type_support.cpp.o[0m
+[106.824s] [ 63%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/masc_chassis_msgs/msg/comm_status__type_support.cpp.o[0m
+[107.364s] [ 64%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/masc_chassis_msgs/msg/drive_motor__type_support.cpp.o[0m
+[107.902s] [ 64%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/masc_chassis_msgs/msg/drive_motor_array__type_support.cpp.o[0m
+[108.447s] [ 65%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/masc_chassis_msgs/msg/drive_motor_status__type_support.cpp.o[0m
+[109.055s] [ 65%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/masc_chassis_msgs/msg/drive_motor_status_array__type_support.cpp.o[0m
+[109.609s] [ 66%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/masc_chassis_msgs/msg/rc_status__type_support.cpp.o[0m
+[110.151s] [ 66%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/masc_chassis_msgs/msg/servo_motor__type_support.cpp.o[0m
+[110.681s] [ 67%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/masc_chassis_msgs/msg/servo_motor_array__type_support.cpp.o[0m
+[111.201s] [ 67%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/masc_chassis_msgs/msg/servo_motor_status__type_support.cpp.o[0m
+[111.733s] [ 68%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/masc_chassis_msgs/msg/servo_motor_status_array__type_support.cpp.o[0m
+[112.269s] [ 68%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/masc_chassis_msgs/srv/clear_fault__type_support.cpp.o[0m
+[112.939s] [ 69%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/masc_chassis_msgs/srv/calibrate_servo__type_support.cpp.o[0m
+[113.611s] [ 69%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/masc_chassis_msgs/srv/set_motion_mode__type_support.cpp.o[0m
+[114.338s] [ 70%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/masc_chassis_msgs/srv/set_tow_mode__type_support.cpp.o[0m
+[115.165s] [ 70%] [32m[1mLinking CXX shared library libmasc_chassis_msgs__rosidl_typesupport_cpp.so[0m
+[115.407s] [ 70%] Built target masc_chassis_msgs__rosidl_typesupport_cpp
+[115.430s] [ 70%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[118.220s] [ 71%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/masc_chassis_msgs/msg/can_frame_stats__type_support.cpp.o[0m
+[118.220s] [ 71%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/masc_chassis_msgs/msg/bms_status__type_support.cpp.o[0m
+[118.308s] [ 72%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/masc_chassis_msgs/msg/can_frame_stats_array__type_support.cpp.o[0m
+[118.393s] [ 72%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/masc_chassis_msgs/msg/comm_status__type_support.cpp.o[0m
+[118.393s] [ 72%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/masc_chassis_msgs/msg/chassis_status__type_support.cpp.o[0m
+[118.478s] [ 73%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/masc_chassis_msgs/msg/drive_motor__type_support.cpp.o[0m
+[118.562s] [ 74%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/masc_chassis_msgs/msg/drive_motor_status__type_support.cpp.o[0m
+[118.642s] [ 74%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/masc_chassis_msgs/msg/drive_motor_status_array__type_support.cpp.o[0m
+[118.725s] [ 75%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/masc_chassis_msgs/msg/rc_status__type_support.cpp.o[0m
+[118.807s] [ 75%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/masc_chassis_msgs/msg/servo_motor__type_support.cpp.o[0m
+[118.895s] [ 76%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/masc_chassis_msgs/msg/servo_motor_array__type_support.cpp.o[0m
+[118.981s] [ 76%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/masc_chassis_msgs/msg/servo_motor_status__type_support.cpp.o[0m
+[119.058s] [ 77%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/masc_chassis_msgs/msg/servo_motor_status_array__type_support.cpp.o[0m
+[119.143s] [ 77%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/masc_chassis_msgs/srv/clear_fault__type_support.cpp.o[0m
+[119.262s] [ 78%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/masc_chassis_msgs/srv/calibrate_servo__type_support.cpp.o[0m
+[119.348s] [ 78%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/masc_chassis_msgs/srv/set_motion_mode__type_support.cpp.o[0m
+[119.437s] [ 79%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/masc_chassis_msgs/srv/set_tow_mode__type_support.cpp.o[0m
+[119.437s] [ 79%] [32mBuilding CXX object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/masc_chassis_msgs/msg/drive_motor_array__type_support.cpp.o[0m
+[119.528s] [ 79%] [32m[1mLinking CXX shared library libmasc_chassis_msgs__rosidl_typesupport_c.so[0m
+[119.628s] [ 79%] Built target masc_chassis_msgs__rosidl_typesupport_c
+[119.651s] [ 79%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[122.661s] [ 80%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/masc_chassis_msgs/msg/detail/can_frame_stats_array__type_support.c.o[0m
+[122.662s] [ 80%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/masc_chassis_msgs/msg/detail/can_frame_stats__type_support.c.o[0m
+[122.662s] [ 81%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/masc_chassis_msgs/msg/detail/bms_status__type_support.c.o[0m
+[122.749s] [ 82%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/masc_chassis_msgs/msg/detail/comm_status__type_support.c.o[0m
+[122.749s] [ 82%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/masc_chassis_msgs/msg/detail/chassis_status__type_support.c.o[0m
+[122.777s] [ 82%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/masc_chassis_msgs/msg/detail/drive_motor__type_support.c.o[0m
+[122.850s] [ 82%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/masc_chassis_msgs/msg/detail/drive_motor_array__type_support.c.o[0m
+[122.860s] [ 83%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/masc_chassis_msgs/msg/detail/drive_motor_status__type_support.c.o[0m
+[122.895s] [ 83%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/masc_chassis_msgs/msg/detail/drive_motor_status_array__type_support.c.o[0m
+[122.954s] [ 83%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/masc_chassis_msgs/msg/detail/servo_motor__type_support.c.o[0m
+[122.956s] [ 84%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/masc_chassis_msgs/msg/detail/rc_status__type_support.c.o[0m
+[123.001s] [ 85%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/masc_chassis_msgs/msg/detail/servo_motor_array__type_support.c.o[0m
+[123.053s] [ 85%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/masc_chassis_msgs/msg/detail/servo_motor_status__type_support.c.o[0m
+[123.059s] [ 86%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/masc_chassis_msgs/msg/detail/servo_motor_status_array__type_support.c.o[0m
+[123.107s] [ 86%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/masc_chassis_msgs/srv/detail/clear_fault__type_support.c.o[0m
+[123.161s] [ 87%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/masc_chassis_msgs/srv/detail/calibrate_servo__type_support.c.o[0m
+[123.179s] [ 87%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/masc_chassis_msgs/srv/detail/set_motion_mode__type_support.c.o[0m
+[123.235s] [ 88%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/masc_chassis_msgs/srv/detail/set_tow_mode__type_support.c.o[0m
+[123.337s] [ 88%] [32m[1mLinking C shared library libmasc_chassis_msgs__rosidl_typesupport_introspection_c.so[0m
+[123.432s] [ 88%] Built target masc_chassis_msgs__rosidl_typesupport_introspection_c
+[123.480s] [ 88%] Built target masc_chassis_msgs
+[123.524s] [ 88%] [34m[1mGenerating Python code for ROS interfaces[0m
+[130.033s] [ 88%] Built target masc_chassis_msgs__py
+[130.076s] [ 88%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_py.dir/rosidl_generator_py/masc_chassis_msgs/msg/_bms_status_s.c.o[0m
+[130.079s] [ 89%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_py.dir/rosidl_generator_py/masc_chassis_msgs/msg/_can_frame_stats_s.c.o[0m
+[130.079s] [ 88%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_py.dir/rosidl_generator_py/masc_chassis_msgs/msg/_can_frame_stats_array_s.c.o[0m
+[130.467s] [ 90%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_py.dir/rosidl_generator_py/masc_chassis_msgs/msg/_chassis_status_s.c.o[0m
+[130.476s] [ 90%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_py.dir/rosidl_generator_py/masc_chassis_msgs/msg/_comm_status_s.c.o[0m
+[130.505s] [ 91%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_py.dir/rosidl_generator_py/masc_chassis_msgs/msg/_drive_motor_s.c.o[0m
+[130.531s] [ 91%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_py.dir/rosidl_generator_py/masc_chassis_msgs/msg/_drive_motor_array_s.c.o[0m
+[130.847s] [ 92%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_py.dir/rosidl_generator_py/masc_chassis_msgs/msg/_drive_motor_status_s.c.o[0m
+[130.851s] [ 92%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_py.dir/rosidl_generator_py/masc_chassis_msgs/msg/_drive_motor_status_array_s.c.o[0m
+[130.904s] [ 93%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_py.dir/rosidl_generator_py/masc_chassis_msgs/msg/_rc_status_s.c.o[0m
+[131.051s] [ 93%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_py.dir/rosidl_generator_py/masc_chassis_msgs/msg/_servo_motor_s.c.o[0m
+[131.238s] [ 94%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_py.dir/rosidl_generator_py/masc_chassis_msgs/msg/_servo_motor_array_s.c.o[0m
+[131.251s] [ 94%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_py.dir/rosidl_generator_py/masc_chassis_msgs/msg/_servo_motor_status_s.c.o[0m
+[131.336s] [ 95%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_py.dir/rosidl_generator_py/masc_chassis_msgs/msg/_servo_motor_status_array_s.c.o[0m
+[131.488s] [ 95%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_py.dir/rosidl_generator_py/masc_chassis_msgs/srv/_clear_fault_s.c.o[0m
+[131.690s] [ 96%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_py.dir/rosidl_generator_py/masc_chassis_msgs/srv/_calibrate_servo_s.c.o[0m
+[131.705s] [ 96%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_py.dir/rosidl_generator_py/masc_chassis_msgs/srv/_set_motion_mode_s.c.o[0m
+[131.792s] [ 97%] [32mBuilding C object CMakeFiles/masc_chassis_msgs__rosidl_generator_py.dir/rosidl_generator_py/masc_chassis_msgs/srv/_set_tow_mode_s.c.o[0m
+[132.271s] [ 97%] [32m[1mLinking C shared library libmasc_chassis_msgs__rosidl_generator_py.so[0m
+[132.567s] [ 97%] Built target masc_chassis_msgs__rosidl_generator_py
+[132.635s] [ 97%] [32mBuilding C object CMakeFiles/masc_chassis_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/masc_chassis_msgs/_masc_chassis_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[132.635s] [ 97%] [32mBuilding C object CMakeFiles/masc_chassis_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/masc_chassis_msgs/_masc_chassis_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[132.639s] [ 97%] [32mBuilding C object CMakeFiles/masc_chassis_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/masc_chassis_msgs/_masc_chassis_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[133.113s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/masc_chassis_msgs/masc_chassis_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[133.125s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/masc_chassis_msgs/masc_chassis_msgs_s__rosidl_typesupport_c.so[0m
+[133.135s] [100%] [32m[1mLinking C shared module rosidl_generator_py/masc_chassis_msgs/masc_chassis_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[133.208s] [100%] Built target masc_chassis_msgs_s__rosidl_typesupport_c
+[133.208s] [100%] Built target masc_chassis_msgs_s__rosidl_typesupport_introspection_c
+[133.231s] [100%] Built target masc_chassis_msgs_s__rosidl_typesupport_fastrtps_c
+[133.266s] Invoked command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs -- -j4 -l4
+[133.269s] Invoking command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs
+[133.290s] -- Install configuration: ""
+[133.291s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/ament_index/resource_index/rosidl_interfaces/masc_chassis_msgs
+[133.291s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/BmsStatus.json
+[133.291s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/CanFrameStats.json
+[133.291s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/CanFrameStatsArray.json
+[133.292s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/ChassisStatus.json
+[133.292s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/CommStatus.json
+[133.292s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/DriveMotor.json
+[133.292s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/DriveMotorArray.json
+[133.292s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/DriveMotorStatus.json
+[133.293s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/DriveMotorStatusArray.json
+[133.293s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/RcStatus.json
+[133.293s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/ServoMotor.json
+[133.293s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/ServoMotorArray.json
+[133.294s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/ServoMotorStatus.json
+[133.294s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/ServoMotorStatusArray.json
+[133.294s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/srv/ClearFault.json
+[133.294s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/srv/CalibrateServo.json
+[133.295s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/srv/SetMotionMode.json
+[133.295s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/srv/SetTowMode.json
+[133.295s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs
+[133.295s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg
+[133.295s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/bms_status.h
+[133.295s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/drive_motor_status_array.h
+[133.296s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/comm_status.h
+[133.296s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/servo_motor_status_array.h
+[133.296s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/can_frame_stats_array.h
+[133.296s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/rc_status.h
+[133.296s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/drive_motor.h
+[133.296s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/servo_motor_status.h
+[133.296s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/servo_motor_array.h
+[133.297s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/chassis_status.h
+[133.297s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/can_frame_stats.h
+[133.297s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/drive_motor_array.h
+[133.297s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/rosidl_generator_c__visibility_control.h
+[133.297s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail
+[133.297s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor__type_support.c
+[133.298s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_array__struct.h
+[133.298s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats__type_support.c
+[133.298s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats_array__type_support.c
+[133.298s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/bms_status__description.c
+[133.298s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/comm_status__type_support.c
+[133.298s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status__functions.c
+[133.298s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/chassis_status__description.c
+[133.299s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor__functions.h
+[133.299s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor__struct.h
+[133.299s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats_array__type_support.h
+[133.299s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_array__type_support.c
+[133.299s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status__functions.h
+[133.299s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/chassis_status__type_support.h
+[133.300s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/chassis_status__functions.c
+[133.300s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/comm_status__functions.c
+[133.300s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_array__type_support.c
+[133.300s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats_array__functions.c
+[133.300s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor__functions.c
+[133.300s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor__functions.h
+[133.301s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status_array__struct.h
+[133.301s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats_array__functions.h
+[133.301s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/bms_status__functions.h
+[133.301s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status__description.c
+[133.301s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status__struct.h
+[133.301s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status_array__description.c
+[133.301s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats_array__struct.h
+[133.302s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats__type_support.h
+[133.302s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor__description.c
+[133.302s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats__struct.h
+[133.302s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status__functions.h
+[133.302s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/comm_status__functions.h
+[133.302s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats_array__description.c
+[133.303s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats__description.c
+[133.303s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_array__struct.h
+[133.303s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status_array__type_support.h
+[133.303s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status__struct.h
+[133.303s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/rc_status__type_support.c
+[133.303s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/comm_status__type_support.h
+[133.303s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_array__functions.h
+[133.304s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_array__functions.c
+[133.304s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/comm_status__description.c
+[133.304s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/rc_status__functions.c
+[133.304s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status_array__type_support.c
+[133.304s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/rc_status__struct.h
+[133.304s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status__functions.c
+[133.305s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status_array__functions.c
+[133.305s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor__functions.c
+[133.305s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status__type_support.c
+[133.305s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_array__functions.c
+[133.305s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/bms_status__type_support.h
+[133.305s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status__type_support.h
+[133.306s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_array__description.c
+[133.306s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/chassis_status__functions.h
+[133.306s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/bms_status__struct.h
+[133.306s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/rc_status__description.c
+[133.306s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status__type_support.h
+[133.306s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_array__type_support.h
+[133.307s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/bms_status__type_support.c
+[133.307s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_array__functions.h
+[133.307s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/rc_status__functions.h
+[133.307s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor__type_support.c
+[133.307s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats__functions.c
+[133.307s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status_array__functions.h
+[133.307s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/rc_status__type_support.h
+[133.308s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor__type_support.h
+[133.308s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status_array__struct.h
+[133.308s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/chassis_status__type_support.c
+[133.308s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_array__type_support.h
+[133.308s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status_array__functions.h
+[133.308s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats__functions.h
+[133.309s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor__description.c
+[133.309s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status_array__functions.c
+[133.309s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor__type_support.h
+[133.309s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status_array__type_support.c
+[133.309s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status_array__type_support.h
+[133.309s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor__struct.h
+[133.310s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/comm_status__struct.h
+[133.310s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status__type_support.c
+[133.310s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status__description.c
+[133.310s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_array__description.c
+[133.310s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/chassis_status__struct.h
+[133.310s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/bms_status__functions.c
+[133.311s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status_array__description.c
+[133.311s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/drive_motor_status.h
+[133.311s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/servo_motor.h
+[133.311s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv
+[133.311s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/clear_fault.h
+[133.311s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/calibrate_servo.h
+[133.311s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/set_motion_mode.h
+[133.312s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail
+[133.312s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/calibrate_servo__description.c
+[133.312s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_tow_mode__functions.c
+[133.312s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/clear_fault__functions.h
+[133.312s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/clear_fault__type_support.h
+[133.312s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/calibrate_servo__type_support.h
+[133.313s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_tow_mode__description.c
+[133.313s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/calibrate_servo__struct.h
+[133.313s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/clear_fault__description.c
+[133.313s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/calibrate_servo__type_support.c
+[133.313s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_tow_mode__type_support.h
+[133.313s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_motion_mode__type_support.c
+[133.314s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/calibrate_servo__functions.h
+[133.314s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_motion_mode__functions.c
+[133.314s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_tow_mode__type_support.c
+[133.314s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_motion_mode__description.c
+[133.314s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_tow_mode__struct.h
+[133.314s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/clear_fault__struct.h
+[133.315s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_tow_mode__functions.h
+[133.315s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/clear_fault__type_support.c
+[133.315s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/calibrate_servo__functions.c
+[133.315s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/clear_fault__functions.c
+[133.315s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_motion_mode__functions.h
+[133.315s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_motion_mode__struct.h
+[133.316s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_motion_mode__type_support.h
+[133.316s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/set_tow_mode.h
+[133.316s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/environment/library_path.sh
+[133.316s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/environment/library_path.dsv
+[133.317s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/libmasc_chassis_msgs__rosidl_generator_c.so
+[133.318s] -- Set non-toolchain portion of runtime path of "/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/libmasc_chassis_msgs__rosidl_generator_c.so" to ""
+[133.318s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs
+[133.319s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg
+[133.319s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[133.319s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail
+[133.319s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/rc_status__rosidl_typesupport_fastrtps_c.h
+[133.319s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status_array__rosidl_typesupport_fastrtps_c.h
+[133.319s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status__rosidl_typesupport_fastrtps_c.h
+[133.319s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_array__rosidl_typesupport_fastrtps_c.h
+[133.320s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats__rosidl_typesupport_fastrtps_c.h
+[133.320s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/bms_status__rosidl_typesupport_fastrtps_c.h
+[133.320s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor__rosidl_typesupport_fastrtps_c.h
+[133.320s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status_array__rosidl_typesupport_fastrtps_c.h
+[133.320s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats_array__rosidl_typesupport_fastrtps_c.h
+[133.320s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor__rosidl_typesupport_fastrtps_c.h
+[133.320s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/comm_status__rosidl_typesupport_fastrtps_c.h
+[133.320s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_array__rosidl_typesupport_fastrtps_c.h
+[133.321s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status__rosidl_typesupport_fastrtps_c.h
+[133.321s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/chassis_status__rosidl_typesupport_fastrtps_c.h
+[133.321s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv
+[133.321s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail
+[133.321s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_tow_mode__rosidl_typesupport_fastrtps_c.h
+[133.321s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/calibrate_servo__rosidl_typesupport_fastrtps_c.h
+[133.321s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_motion_mode__rosidl_typesupport_fastrtps_c.h
+[133.322s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/clear_fault__rosidl_typesupport_fastrtps_c.h
+[133.322s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/libmasc_chassis_msgs__rosidl_typesupport_fastrtps_c.so
+[133.323s] -- Set non-toolchain portion of runtime path of "/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/libmasc_chassis_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[133.324s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs
+[133.324s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg
+[133.324s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[133.324s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail
+[133.324s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor__type_support.c
+[133.325s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats__type_support.c
+[133.325s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats_array__type_support.c
+[133.325s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/comm_status__type_support.c
+[133.325s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status_array__rosidl_typesupport_introspection_c.h
+[133.325s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_array__type_support.c
+[133.325s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats_array__rosidl_typesupport_introspection_c.h
+[133.325s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_array__rosidl_typesupport_introspection_c.h
+[133.325s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_array__type_support.c
+[133.326s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status__rosidl_typesupport_introspection_c.h
+[133.326s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/rc_status__type_support.c
+[133.326s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/bms_status__rosidl_typesupport_introspection_c.h
+[133.326s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status_array__type_support.c
+[133.326s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status__type_support.c
+[133.326s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor__rosidl_typesupport_introspection_c.h
+[133.327s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/chassis_status__rosidl_typesupport_introspection_c.h
+[133.327s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/comm_status__rosidl_typesupport_introspection_c.h
+[133.327s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/bms_status__type_support.c
+[133.327s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_array__rosidl_typesupport_introspection_c.h
+[133.328s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor__type_support.c
+[133.328s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status_array__rosidl_typesupport_introspection_c.h
+[133.328s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor__rosidl_typesupport_introspection_c.h
+[133.328s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/chassis_status__type_support.c
+[133.328s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/rc_status__rosidl_typesupport_introspection_c.h
+[133.329s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status__rosidl_typesupport_introspection_c.h
+[133.329s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status_array__type_support.c
+[133.329s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status__type_support.c
+[133.329s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats__rosidl_typesupport_introspection_c.h
+[133.330s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv
+[133.330s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail
+[133.330s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_motion_mode__rosidl_typesupport_introspection_c.h
+[133.330s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/clear_fault__rosidl_typesupport_introspection_c.h
+[133.331s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/calibrate_servo__type_support.c
+[133.331s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/calibrate_servo__rosidl_typesupport_introspection_c.h
+[133.331s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_motion_mode__type_support.c
+[133.331s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_tow_mode__type_support.c
+[133.331s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_tow_mode__rosidl_typesupport_introspection_c.h
+[133.331s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/clear_fault__type_support.c
+[133.332s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/libmasc_chassis_msgs__rosidl_typesupport_introspection_c.so
+[133.333s] -- Set non-toolchain portion of runtime path of "/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/libmasc_chassis_msgs__rosidl_typesupport_introspection_c.so" to ""
+[133.333s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/libmasc_chassis_msgs__rosidl_typesupport_c.so
+[133.334s] -- Set non-toolchain portion of runtime path of "/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/libmasc_chassis_msgs__rosidl_typesupport_c.so" to ""
+[133.335s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs
+[133.335s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg
+[133.335s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/drive_motor_status.hpp
+[133.335s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/can_frame_stats_array.hpp
+[133.335s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/servo_motor_status_array.hpp
+[133.336s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/bms_status.hpp
+[133.336s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/rc_status.hpp
+[133.336s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/chassis_status.hpp
+[133.336s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/servo_motor_status.hpp
+[133.336s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/servo_motor.hpp
+[133.336s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/comm_status.hpp
+[133.336s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[133.336s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/drive_motor.hpp
+[133.337s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/servo_motor_array.hpp
+[133.337s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/drive_motor_status_array.hpp
+[133.337s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail
+[133.337s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/comm_status__struct.hpp
+[133.337s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status_array__type_support.hpp
+[133.338s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status_array__builder.hpp
+[133.338s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_array__traits.hpp
+[133.338s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_array__traits.hpp
+[133.338s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor__type_support.hpp
+[133.338s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_array__struct.hpp
+[133.338s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats_array__traits.hpp
+[133.338s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status__traits.hpp
+[133.339s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status_array__type_support.hpp
+[133.339s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status__builder.hpp
+[133.339s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_array__type_support.hpp
+[133.339s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor__traits.hpp
+[133.339s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/rc_status__struct.hpp
+[133.339s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats__type_support.hpp
+[133.340s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats_array__builder.hpp
+[133.340s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/bms_status__struct.hpp
+[133.340s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats__builder.hpp
+[133.340s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status_array__traits.hpp
+[133.340s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status__type_support.hpp
+[133.341s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/chassis_status__traits.hpp
+[133.341s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status_array__struct.hpp
+[133.341s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/bms_status__traits.hpp
+[133.341s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/bms_status__type_support.hpp
+[133.341s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor__struct.hpp
+[133.341s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/rc_status__traits.hpp
+[133.342s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/rc_status__builder.hpp
+[133.342s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/chassis_status__type_support.hpp
+[133.342s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status_array__builder.hpp
+[133.342s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats__traits.hpp
+[133.342s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status__type_support.hpp
+[133.342s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status__traits.hpp
+[133.342s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status__builder.hpp
+[133.343s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status_array__struct.hpp
+[133.343s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status__struct.hpp
+[133.343s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/comm_status__type_support.hpp
+[133.343s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor__builder.hpp
+[133.343s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_array__type_support.hpp
+[133.343s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats__struct.hpp
+[133.344s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/chassis_status__struct.hpp
+[133.344s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/comm_status__traits.hpp
+[133.344s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/chassis_status__builder.hpp
+[133.344s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/comm_status__builder.hpp
+[133.345s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor__type_support.hpp
+[133.345s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/bms_status__builder.hpp
+[133.345s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor__builder.hpp
+[133.345s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status_array__traits.hpp
+[133.345s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats_array__type_support.hpp
+[133.345s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status__struct.hpp
+[133.346s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/rc_status__type_support.hpp
+[133.346s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor__struct.hpp
+[133.346s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor__traits.hpp
+[133.346s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_array__struct.hpp
+[133.347s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_array__builder.hpp
+[133.347s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_array__builder.hpp
+[133.347s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats_array__struct.hpp
+[133.348s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/can_frame_stats.hpp
+[133.348s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/drive_motor_array.hpp
+[133.348s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv
+[133.348s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/calibrate_servo.hpp
+[133.348s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/clear_fault.hpp
+[133.348s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail
+[133.348s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/clear_fault__struct.hpp
+[133.350s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_tow_mode__struct.hpp
+[133.350s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_tow_mode__type_support.hpp
+[133.351s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_tow_mode__builder.hpp
+[133.351s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_motion_mode__struct.hpp
+[133.351s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/clear_fault__traits.hpp
+[133.352s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_motion_mode__type_support.hpp
+[133.353s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/clear_fault__type_support.hpp
+[133.353s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/calibrate_servo__type_support.hpp
+[133.353s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/calibrate_servo__struct.hpp
+[133.354s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_motion_mode__builder.hpp
+[133.354s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_tow_mode__traits.hpp
+[133.354s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/clear_fault__builder.hpp
+[133.354s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/calibrate_servo__builder.hpp
+[133.356s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_motion_mode__traits.hpp
+[133.356s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/calibrate_servo__traits.hpp
+[133.356s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/set_tow_mode.hpp
+[133.356s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/set_motion_mode.hpp
+[133.356s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs
+[133.357s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg
+[133.357s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[133.357s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail
+[133.357s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor__rosidl_typesupport_fastrtps_cpp.hpp
+[133.357s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/comm_status__rosidl_typesupport_fastrtps_cpp.hpp
+[133.357s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats_array__rosidl_typesupport_fastrtps_cpp.hpp
+[133.357s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status_array__rosidl_typesupport_fastrtps_cpp.hpp
+[133.357s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status__rosidl_typesupport_fastrtps_cpp.hpp
+[133.358s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_array__rosidl_typesupport_fastrtps_cpp.hpp
+[133.358s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats__rosidl_typesupport_fastrtps_cpp.hpp
+[133.358s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/bms_status__rosidl_typesupport_fastrtps_cpp.hpp
+[133.358s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/dds_fastrtps
+[133.358s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/rc_status__rosidl_typesupport_fastrtps_cpp.hpp
+[133.358s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor__rosidl_typesupport_fastrtps_cpp.hpp
+[133.358s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_array__rosidl_typesupport_fastrtps_cpp.hpp
+[133.358s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/chassis_status__rosidl_typesupport_fastrtps_cpp.hpp
+[133.358s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status__rosidl_typesupport_fastrtps_cpp.hpp
+[133.358s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status_array__rosidl_typesupport_fastrtps_cpp.hpp
+[133.359s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv
+[133.359s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail
+[133.359s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_motion_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[133.359s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_tow_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[133.359s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/calibrate_servo__rosidl_typesupport_fastrtps_cpp.hpp
+[133.359s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/dds_fastrtps
+[133.359s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/clear_fault__rosidl_typesupport_fastrtps_cpp.hpp
+[133.359s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/libmasc_chassis_msgs__rosidl_typesupport_fastrtps_cpp.so
+[133.362s] -- Set non-toolchain portion of runtime path of "/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/libmasc_chassis_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[133.362s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs
+[133.362s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg
+[133.362s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail
+[133.362s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/comm_status__rosidl_typesupport_introspection_cpp.hpp
+[133.362s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/rc_status__type_support.cpp
+[133.363s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor__type_support.cpp
+[133.363s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status__type_support.cpp
+[133.363s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/chassis_status__rosidl_typesupport_introspection_cpp.hpp
+[133.363s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_array__type_support.cpp
+[133.363s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor__type_support.cpp
+[133.364s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status_array__type_support.cpp
+[133.364s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/bms_status__rosidl_typesupport_introspection_cpp.hpp
+[133.364s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/chassis_status__type_support.cpp
+[133.364s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status_array__type_support.cpp
+[133.364s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status_array__rosidl_typesupport_introspection_cpp.hpp
+[133.364s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor__rosidl_typesupport_introspection_cpp.hpp
+[133.365s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/rc_status__rosidl_typesupport_introspection_cpp.hpp
+[133.365s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats_array__rosidl_typesupport_introspection_cpp.hpp
+[133.365s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor__rosidl_typesupport_introspection_cpp.hpp
+[133.365s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/comm_status__type_support.cpp
+[133.365s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats_array__type_support.cpp
+[133.365s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_array__rosidl_typesupport_introspection_cpp.hpp
+[133.366s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status__rosidl_typesupport_introspection_cpp.hpp
+[133.366s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status_array__rosidl_typesupport_introspection_cpp.hpp
+[133.366s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats__type_support.cpp
+[133.366s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_array__type_support.cpp
+[133.366s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/drive_motor_status__rosidl_typesupport_introspection_cpp.hpp
+[133.367s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_status__type_support.cpp
+[133.367s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/bms_status__type_support.cpp
+[133.367s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/can_frame_stats__rosidl_typesupport_introspection_cpp.hpp
+[133.367s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/msg/detail/servo_motor_array__rosidl_typesupport_introspection_cpp.hpp
+[133.367s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv
+[133.367s] -- Up-to-date: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail
+[133.368s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/calibrate_servo__rosidl_typesupport_introspection_cpp.hpp
+[133.368s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/calibrate_servo__type_support.cpp
+[133.368s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_tow_mode__rosidl_typesupport_introspection_cpp.hpp
+[133.368s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_motion_mode__type_support.cpp
+[133.368s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/clear_fault__rosidl_typesupport_introspection_cpp.hpp
+[133.368s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_motion_mode__rosidl_typesupport_introspection_cpp.hpp
+[133.369s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/set_tow_mode__type_support.cpp
+[133.369s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/include/masc_chassis_msgs/masc_chassis_msgs/srv/detail/clear_fault__type_support.cpp
+[133.369s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/libmasc_chassis_msgs__rosidl_typesupport_introspection_cpp.so
+[133.372s] -- Set non-toolchain portion of runtime path of "/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/libmasc_chassis_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[133.372s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/libmasc_chassis_msgs__rosidl_typesupport_cpp.so
+[133.373s] -- Set non-toolchain portion of runtime path of "/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/libmasc_chassis_msgs__rosidl_typesupport_cpp.so" to ""
+[133.374s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/environment/pythonpath.sh
+[133.374s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/environment/pythonpath.dsv
+[133.374s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs-1.0.0-py3.12.egg-info
+[133.374s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs-1.0.0-py3.12.egg-info/top_level.txt
+[133.375s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs-1.0.0-py3.12.egg-info/PKG-INFO
+[133.375s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs-1.0.0-py3.12.egg-info/SOURCES.txt
+[133.375s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs-1.0.0-py3.12.egg-info/dependency_links.txt
+[133.375s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs
+[133.376s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/_masc_chassis_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[133.376s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/masc_chassis_msgs_s__rosidl_typesupport_introspection_c.so
+[133.377s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg
+[133.378s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_servo_motor_s.c
+[133.378s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_comm_status.py
+[133.378s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_chassis_status.py
+[133.378s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_comm_status_s.c
+[133.378s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_can_frame_stats_s.c
+[133.379s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_drive_motor_array_s.c
+[133.379s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_can_frame_stats_array.py
+[133.379s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_servo_motor_status_s.c
+[133.379s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/__init__.py
+[133.379s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_can_frame_stats_array_s.c
+[133.380s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_drive_motor_status_array_s.c
+[133.380s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_servo_motor.py
+[133.380s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_rc_status.py
+[133.380s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_can_frame_stats.py
+[133.381s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_drive_motor_status_array.py
+[133.381s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_rc_status_s.c
+[133.381s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_drive_motor_status.py
+[133.381s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_drive_motor_array.py
+[133.381s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_servo_motor_array_s.c
+[133.381s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_chassis_status_s.c
+[133.381s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_drive_motor_status_s.c
+[133.382s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_bms_status_s.c
+[133.382s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_drive_motor_s.c
+[133.382s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_servo_motor_status.py
+[133.382s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_servo_motor_status_array_s.c
+[133.382s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_drive_motor.py
+[133.383s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_servo_motor_status_array.py
+[133.383s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_servo_motor_array.py
+[133.384s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_bms_status.py
+[133.384s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/__init__.py
+[133.384s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/_masc_chassis_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[133.384s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/masc_chassis_msgs_s__rosidl_typesupport_fastrtps_c.so
+[133.385s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/srv
+[133.385s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/srv/_set_tow_mode_s.c
+[133.385s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/srv/_set_tow_mode.py
+[133.386s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/srv/_clear_fault.py
+[133.386s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/srv/_calibrate_servo.py
+[133.386s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/srv/__init__.py
+[133.386s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/srv/_set_motion_mode.py
+[133.386s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/srv/_set_motion_mode_s.c
+[133.387s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/srv/_clear_fault_s.c
+[133.387s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/srv/_calibrate_servo_s.c
+[133.387s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/_masc_chassis_msgs_s.ep.rosidl_typesupport_c.c
+[133.387s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/masc_chassis_msgs_s__rosidl_typesupport_c.so
+[133.515s] Listing '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs'...
+[133.515s] Compiling '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/__init__.py'...
+[133.515s] Listing '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg'...
+[133.515s] Compiling '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/__init__.py'...
+[133.515s] Compiling '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_bms_status.py'...
+[133.515s] Compiling '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_can_frame_stats.py'...
+[133.515s] Compiling '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_can_frame_stats_array.py'...
+[133.515s] Compiling '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_chassis_status.py'...
+[133.516s] Compiling '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_comm_status.py'...
+[133.516s] Compiling '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_drive_motor.py'...
+[133.516s] Compiling '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_drive_motor_array.py'...
+[133.516s] Compiling '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_drive_motor_status.py'...
+[133.516s] Compiling '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_drive_motor_status_array.py'...
+[133.516s] Compiling '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_rc_status.py'...
+[133.516s] Compiling '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_servo_motor.py'...
+[133.516s] Compiling '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_servo_motor_array.py'...
+[133.516s] Compiling '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_servo_motor_status.py'...
+[133.516s] Compiling '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/msg/_servo_motor_status_array.py'...
+[133.516s] Listing '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/srv'...
+[133.516s] Compiling '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/srv/__init__.py'...
+[133.517s] Compiling '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/srv/_calibrate_servo.py'...
+[133.517s] Compiling '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/srv/_clear_fault.py'...
+[133.517s] Compiling '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/srv/_set_motion_mode.py'...
+[133.517s] Compiling '/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/srv/_set_tow_mode.py'...
+[133.531s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/masc_chassis_msgs_s__rosidl_typesupport_fastrtps_c.so
+[133.531s] -- Set non-toolchain portion of runtime path of "/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/masc_chassis_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[133.532s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/masc_chassis_msgs_s__rosidl_typesupport_introspection_c.so
+[133.533s] -- Set non-toolchain portion of runtime path of "/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/masc_chassis_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[133.533s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/masc_chassis_msgs_s__rosidl_typesupport_c.so
+[133.534s] -- Set non-toolchain portion of runtime path of "/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages/masc_chassis_msgs/masc_chassis_msgs_s__rosidl_typesupport_c.so" to ""
+[133.534s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/libmasc_chassis_msgs__rosidl_generator_py.so
+[133.535s] -- Set non-toolchain portion of runtime path of "/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/libmasc_chassis_msgs__rosidl_generator_py.so" to ""
+[133.535s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/ament_index/resource_index/rust_packages/masc_chassis_msgs
+[133.536s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/rust
+[133.536s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/rust/build.rs
+[133.536s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/rust/src
+[133.536s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/rust/src/msg
+[133.536s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/rust/src/msg/rmw.rs
+[133.536s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/rust/src/lib.rs
+[133.536s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/rust/src/srv
+[133.536s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/rust/src/srv/rmw.rs
+[133.537s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/rust/src/srv.rs
+[133.537s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/rust/src/msg.rs
+[133.537s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/rust/Cargo.toml
+[133.537s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/BmsStatus.idl
+[133.538s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/CanFrameStats.idl
+[133.538s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/CanFrameStatsArray.idl
+[133.538s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/ChassisStatus.idl
+[133.539s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/CommStatus.idl
+[133.539s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/DriveMotor.idl
+[133.539s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/DriveMotorArray.idl
+[133.539s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/DriveMotorStatus.idl
+[133.540s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/DriveMotorStatusArray.idl
+[133.540s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/RcStatus.idl
+[133.541s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/ServoMotor.idl
+[133.541s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/ServoMotorArray.idl
+[133.542s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/ServoMotorStatus.idl
+[133.542s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/ServoMotorStatusArray.idl
+[133.542s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/srv/ClearFault.idl
+[133.543s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/srv/CalibrateServo.idl
+[133.543s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/srv/SetMotionMode.idl
+[133.543s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/srv/SetTowMode.idl
+[133.544s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/BmsStatus.msg
+[133.545s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/CanFrameStats.msg
+[133.546s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/CanFrameStatsArray.msg
+[133.546s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/ChassisStatus.msg
+[133.547s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/CommStatus.msg
+[133.548s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/DriveMotor.msg
+[133.549s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/DriveMotorArray.msg
+[133.549s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/DriveMotorStatus.msg
+[133.549s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/DriveMotorStatusArray.msg
+[133.549s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/RcStatus.msg
+[133.549s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/ServoMotor.msg
+[133.550s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/ServoMotorArray.msg
+[133.550s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/ServoMotorStatus.msg
+[133.550s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/msg/ServoMotorStatusArray.msg
+[133.550s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/srv/ClearFault.srv
+[133.551s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/srv/CalibrateServo.srv
+[133.551s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/srv/SetMotionMode.srv
+[133.551s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/srv/SetTowMode.srv
+[133.552s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/ament_index/resource_index/package_run_dependencies/masc_chassis_msgs
+[133.552s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/ament_index/resource_index/parent_prefix_path/masc_chassis_msgs
+[133.552s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/environment/ament_prefix_path.sh
+[133.553s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/environment/ament_prefix_path.dsv
+[133.553s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/environment/path.sh
+[133.553s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/environment/path.dsv
+[133.554s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/local_setup.bash
+[133.554s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/local_setup.sh
+[133.554s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/local_setup.zsh
+[133.555s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/local_setup.dsv
+[133.555s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/package.dsv
+[133.555s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/ament_index/resource_index/packages/masc_chassis_msgs
+[133.556s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/export_masc_chassis_msgs__rosidl_generator_cExport.cmake
+[133.556s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/export_masc_chassis_msgs__rosidl_generator_cExport-noconfig.cmake
+[133.556s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/export_masc_chassis_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[133.557s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/export_masc_chassis_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[133.557s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/masc_chassis_msgs__rosidl_typesupport_introspection_cExport.cmake
+[133.557s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/masc_chassis_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[133.558s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/masc_chassis_msgs__rosidl_typesupport_cExport.cmake
+[133.558s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/masc_chassis_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[133.558s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/export_masc_chassis_msgs__rosidl_generator_cppExport.cmake
+[133.558s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/export_masc_chassis_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[133.559s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/export_masc_chassis_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[133.559s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/masc_chassis_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[133.560s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/masc_chassis_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[133.560s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/masc_chassis_msgs__rosidl_typesupport_cppExport.cmake
+[133.560s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/masc_chassis_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[133.561s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/export_masc_chassis_msgs__rosidl_generator_pyExport.cmake
+[133.562s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/export_masc_chassis_msgs__rosidl_generator_pyExport-noconfig.cmake
+[133.562s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/rosidl_cmake-extras.cmake
+[133.562s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[133.562s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[133.563s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[133.563s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[133.563s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[133.564s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[133.564s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[133.564s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/masc_chassis_msgsConfig.cmake
+[133.565s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake/masc_chassis_msgsConfig-version.cmake
+[133.565s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/package.xml
+[133.572s] Invoked command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs

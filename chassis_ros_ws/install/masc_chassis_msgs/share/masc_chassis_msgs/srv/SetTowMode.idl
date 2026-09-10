@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from masc_chassis_msgs/srv/SetTowMode.srv
+// generated code does not contain a copyright notice
+
+
+module masc_chassis_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Function: One-shot tow mode request." "\n"
+      "Msg Name: SetTowMode" "\n"
+      "Maps to tow_mode_control_cmd (0x101).")
+    struct SetTowMode_Request {
+      boolean enable;
+    };
+    struct SetTowMode_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

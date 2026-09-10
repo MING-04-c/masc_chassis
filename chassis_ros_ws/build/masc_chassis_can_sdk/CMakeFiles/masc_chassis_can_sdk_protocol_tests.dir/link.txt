@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/masc_chassis_can_sdk_protocol_tests.dir/tests/protocol_tests.cpp.o -o masc_chassis_can_sdk_protocol_tests  libmasc_chassis_can_sdk.a 

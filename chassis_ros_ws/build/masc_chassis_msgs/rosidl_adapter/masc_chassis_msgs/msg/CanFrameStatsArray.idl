@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from masc_chassis_msgs/msg/CanFrameStatsArray.msg
+// generated code does not contain a copyright notice
+
+#include "masc_chassis_msgs/msg/CanFrameStats.idl"
+#include "std_msgs/msg/Header.idl"
+
+module masc_chassis_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Function: Receive and parse statistics for all tracked CAN IDs." "\n"
+      "Msg Name: CanFrameStatsArray")
+    struct CanFrameStatsArray {
+      @verbatim (language="comment", text=
+        "单位：无，本组 CAN 统计信息的发布时间")
+      std_msgs::msg::Header header;
+
+      sequence<masc_chassis_msgs::msg::CanFrameStats> stats;
+    };
+  };
+};

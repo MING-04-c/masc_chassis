@@ -1,0 +1,4 @@
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(masc_chassis_msgs_IDL_FILES "msg/BmsStatus.idl;msg/CanFrameStats.idl;msg/CanFrameStatsArray.idl;msg/ChassisStatus.idl;msg/CommStatus.idl;msg/DriveMotor.idl;msg/DriveMotorArray.idl;msg/DriveMotorStatus.idl;msg/DriveMotorStatusArray.idl;msg/RcStatus.idl;msg/ServoMotor.idl;msg/ServoMotorArray.idl;msg/ServoMotorStatus.idl;msg/ServoMotorStatusArray.idl;srv/ClearFault.idl;srv/CalibrateServo.idl;srv/SetMotionMode.idl;srv/SetTowMode.idl")
+set(masc_chassis_msgs_INTERFACE_FILES "msg/BmsStatus.msg;msg/CanFrameStats.msg;msg/CanFrameStatsArray.msg;msg/ChassisStatus.msg;msg/CommStatus.msg;msg/DriveMotor.msg;msg/DriveMotorArray.msg;msg/DriveMotorStatus.msg;msg/DriveMotorStatusArray.msg;msg/RcStatus.msg;msg/ServoMotor.msg;msg/ServoMotorArray.msg;msg/ServoMotorStatus.msg;msg/ServoMotorStatusArray.msg;srv/ClearFault.srv;srv/CalibrateServo.srv;srv/SetMotionMode.srv;srv/SetTowMode.srv")

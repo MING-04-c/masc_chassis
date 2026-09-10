@@ -1,0 +1,8 @@
+source;share/masc_chassis_ros_driver/hook/cmake_prefix_path.ps1
+source;share/masc_chassis_ros_driver/hook/cmake_prefix_path.dsv
+source;share/masc_chassis_ros_driver/hook/cmake_prefix_path.sh
+source;share/masc_chassis_ros_driver/local_setup.bash
+source;share/masc_chassis_ros_driver/local_setup.dsv
+source;share/masc_chassis_ros_driver/local_setup.ps1
+source;share/masc_chassis_ros_driver/local_setup.sh
+source;share/masc_chassis_ros_driver/local_setup.zsh

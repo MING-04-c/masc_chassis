@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from masc_chassis_msgs/msg/DriveMotorStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module masc_chassis_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Function: Drive motor runtime status for one protocol index." "\n"
+      "Msg Name: DriveMotorStatus")
+    struct DriveMotorStatus {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "单位：无，协议索引，由 CAN ID 范围计算")
+      uint8 index;
+
+      @verbatim (language="comment", text=
+        "单位：degC，驱动轮电机温度")
+      double motor_temperature;
+
+      @verbatim (language="comment", text=
+        "单位：degC，驱动器温度")
+      double driver_temperature;
+
+      @verbatim (language="comment", text=
+        "单位：无，驱动器故障码 bitfield/raw code")
+      uint32 driver_fault;
+    };
+  };
+};

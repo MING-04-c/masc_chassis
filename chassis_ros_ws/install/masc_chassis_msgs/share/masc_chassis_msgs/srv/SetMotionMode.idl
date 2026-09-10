@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from masc_chassis_msgs/srv/SetMotionMode.srv
+// generated code does not contain a copyright notice
+
+
+module masc_chassis_msgs {
+  module srv {
+    module SetMotionMode_Request_Constants {
+      const uint8 MOTION_MODE_DEFAULT_CHASSIS = 0;
+      const uint8 MOTION_MODE_PARK = 1;
+      const uint8 MOTION_MODE_ACKERMANN = 2;
+      const uint8 MOTION_MODE_SPIN = 3;
+      const uint8 MOTION_MODE_LATERAL = 4;
+      const uint8 MOTION_MODE_DIAGONAL = 5;
+    };
+    @verbatim (language="comment", text=
+      "Function: One-shot motion mode switch request." "\n"
+      "Msg Name: SetMotionMode" "\n"
+      "Maps to motion_mode_switch_cmd (0x110)." "\n"
+      "Supported only when system_version_feedback.chassis_type_version is in" "\n"
+      "currently defined all-wheel-steer chassis values: 0x61, 0x62, or 0x63.")
+    struct SetMotionMode_Request {
+      uint8 motion_mode;
+    };
+    struct SetMotionMode_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

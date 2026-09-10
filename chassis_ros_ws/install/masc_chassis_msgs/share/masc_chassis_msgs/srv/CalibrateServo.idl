@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from masc_chassis_msgs/srv/CalibrateServo.srv
+// generated code does not contain a copyright notice
+
+
+module masc_chassis_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Function: Calibrate servo automatically." "\n"
+      "Msg Name: CalibrateServo" "\n"
+      "Note: This request triggers firmware automatic calibration." "\n"
+      "It does not set the current position as the zero point." "\n"
+      "Maps to servo_calibration_cmd (0x170).")
+    struct CalibrateServo_Request {
+      uint16 servo_id;
+    };
+    struct CalibrateServo_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

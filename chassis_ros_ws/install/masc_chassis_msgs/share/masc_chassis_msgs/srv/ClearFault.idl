@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from masc_chassis_msgs/srv/ClearFault.srv
+// generated code does not contain a copyright notice
+
+
+module masc_chassis_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Function: One-shot fault clear request." "\n"
+      "Msg Name: ClearFault" "\n"
+      "Maps to fault_clear_cmd (0x120).")
+    struct ClearFault_Request {
+      uint16 fault_id;
+    };
+    struct ClearFault_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

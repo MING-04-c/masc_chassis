@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmasc_chassis_can_sdk.a CMakeFiles/masc_chassis_can_sdk.dir/src/chassis_protocol.cpp.o CMakeFiles/masc_chassis_can_sdk.dir/src/chassis_sdk.cpp.o CMakeFiles/masc_chassis_can_sdk.dir/src/unsupported_can_transport.cpp.o CMakeFiles/masc_chassis_can_sdk.dir/src/socketcan_transport.cpp.o
+/usr/bin/ranlib libmasc_chassis_can_sdk.a

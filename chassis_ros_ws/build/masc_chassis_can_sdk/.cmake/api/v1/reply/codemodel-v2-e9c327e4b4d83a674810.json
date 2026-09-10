@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7008ae5850e4485adcaa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "masc_chassis_can_sdk",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "masc_chassis_can_sdk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-masc_chassis_can_sdk-7439c5e85dd465186877.json",
+					"name" : "masc_chassis_can_sdk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "masc_chassis_can_sdk_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-masc_chassis_can_sdk_demo-0234a08136acae38d25f.json",
+					"name" : "masc_chassis_can_sdk_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "masc_chassis_can_sdk_protocol_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-masc_chassis_can_sdk_protocol_tests-2b2bd39276710da22540.json",
+					"name" : "masc_chassis_can_sdk_protocol_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "masc_chassis_can_sdk_runtime_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-masc_chassis_can_sdk_runtime_tests-15c4e1e74120aadff09a.json",
+					"name" : "masc_chassis_can_sdk_runtime_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "masc_chassis_can_sdk_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-masc_chassis_can_sdk_uninstall-e3fdb05a0c10da87fab6.json",
+					"name" : "masc_chassis_can_sdk_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a6d72dafb2906be4b976.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk",
+		"source" : "/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_can_sdk"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

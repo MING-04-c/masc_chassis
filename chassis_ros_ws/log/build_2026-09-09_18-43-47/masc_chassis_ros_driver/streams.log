@@ -1,0 +1,76 @@
+[0.022s] Invoking command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver': AMENT_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/lib:${LD_LIBRARY_PATH} PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/bin:${PATH} PYTHONPATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_ros_driver -DCMAKE_INSTALL_PREFIX=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver
+[0.198s] -- The CXX compiler identification is GNU 13.3.0
+[0.241s] -- Detecting CXX compiler ABI info
+[0.490s] -- Detecting CXX compiler ABI info - done
+[0.509s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.510s] -- Detecting CXX compile features
+[0.511s] -- Detecting CXX compile features - done
+[0.514s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.781s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.782s] -- Found Threads: TRUE  
+[0.785s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.051s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.293s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.354s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.379s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.406s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.440s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.618s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.627s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.931s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.988s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.038s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.255s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.322s] -- Found masc_chassis_can_sdk: 1.0.0 (/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/share/masc_chassis_can_sdk/cmake)
+[2.325s] -- Found masc_chassis_msgs: 1.0.0 (/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/share/masc_chassis_msgs/cmake)
+[2.361s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.414s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.470s] -- Found std_srvs: 5.3.8 (/opt/ros/jazzy/share/std_srvs/cmake)
+[2.516s] -- Found tf2: 0.36.21 (/opt/ros/jazzy/share/tf2/cmake)
+[2.530s] -- Found tf2_geometry_msgs: 0.36.21 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[2.571s] -- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[2.576s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.576s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.153s] -- Configuring done (3.1s)
+[3.202s] -- Generating done (0.0s)
+[3.214s] -- Build files have been written to: /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver
+[3.245s] Invoked command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver' returned '0': AMENT_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/lib:${LD_LIBRARY_PATH} PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/bin:${PATH} PYTHONPATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_ros_driver -DCMAKE_INSTALL_PREFIX=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver
+[3.249s] Invoking command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver': AMENT_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/lib:${LD_LIBRARY_PATH} PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/bin:${PATH} PYTHONPATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver -- -j4 -l4
+[3.390s] [ 37%] [32mBuilding CXX object CMakeFiles/masc_chassis_ros_driver_node.dir/src/command_filter.cpp.o[0m
+[3.392s] [ 37%] [32mBuilding CXX object CMakeFiles/masc_chassis_ros_driver_node.dir/src/chassis_ros_driver_node.cpp.o[0m
+[3.395s] [ 37%] [32mBuilding CXX object CMakeFiles/masc_chassis_ros_driver_node.dir/src/auto_lock_controller.cpp.o[0m
+[4.426s] [ 50%] [32mBuilding CXX object CMakeFiles/masc_chassis_ros_driver_node.dir/src/feedback_cache.cpp.o[0m
+[78.778s] [ 62%] [32mBuilding CXX object CMakeFiles/masc_chassis_ros_driver_node.dir/src/ros_conversions.cpp.o[0m
+[86.595s] [ 75%] [32mBuilding CXX object CMakeFiles/masc_chassis_ros_driver_node.dir/src/odom_integrator.cpp.o[0m
+[93.535s] [ 87%] [32mBuilding CXX object CMakeFiles/masc_chassis_ros_driver_node.dir/src/main.cpp.o[0m
+[100.855s] [100%] [32m[1mLinking CXX executable masc_chassis_ros_driver_node[0m
+[105.548s] [100%] Built target masc_chassis_ros_driver_node
+[105.607s] Invoked command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver' returned '0': AMENT_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/lib:${LD_LIBRARY_PATH} PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/bin:${PATH} PYTHONPATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver -- -j4 -l4
+[105.622s] Invoking command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver': AMENT_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/lib:${LD_LIBRARY_PATH} PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/bin:${PATH} PYTHONPATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver
+[105.652s] -- Install configuration: ""
+[105.652s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/lib/masc_chassis_ros_driver/masc_chassis_ros_driver_node
+[105.687s] -- Set non-toolchain portion of runtime path of "/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/lib/masc_chassis_ros_driver/masc_chassis_ros_driver_node" to ""
+[105.687s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/config
+[105.688s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/config/ros2
+[105.688s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/config/ros2/driver_params.yaml
+[105.689s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/config/ros1
+[105.689s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/config/ros1/driver_params.yaml
+[105.690s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/launch
+[105.690s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/launch/masc_chassis_ros_driver_ros1.launch
+[105.691s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/launch/masc_chassis_ros_driver.launch.py
+[105.694s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/ament_index/resource_index/package_run_dependencies/masc_chassis_ros_driver
+[105.695s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/ament_index/resource_index/parent_prefix_path/masc_chassis_ros_driver
+[105.697s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/environment/ament_prefix_path.sh
+[105.700s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/environment/ament_prefix_path.dsv
+[105.702s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/environment/path.sh
+[105.704s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/environment/path.dsv
+[105.705s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/local_setup.bash
+[105.705s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/local_setup.sh
+[105.706s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/local_setup.zsh
+[105.707s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/local_setup.dsv
+[105.707s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/package.dsv
+[105.709s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/ament_index/resource_index/packages/masc_chassis_ros_driver
+[105.709s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/cmake/masc_chassis_ros_driverConfig.cmake
+[105.710s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/cmake/masc_chassis_ros_driverConfig-version.cmake
+[105.711s] -- Installing: /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_ros_driver/share/masc_chassis_ros_driver/package.xml
+[105.718s] Invoked command in '/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver' returned '0': AMENT_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib:/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/lib:${LD_LIBRARY_PATH} PATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/bin:${PATH} PYTHONPATH=/home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver

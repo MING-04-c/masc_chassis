@@ -1,0 +1,14 @@
+source;share/masc_chassis_can_sdk/hook/cmake_prefix_path.ps1
+source;share/masc_chassis_can_sdk/hook/cmake_prefix_path.dsv
+source;share/masc_chassis_can_sdk/hook/cmake_prefix_path.sh
+source;share/masc_chassis_can_sdk/hook/path.ps1
+source;share/masc_chassis_can_sdk/hook/path.dsv
+source;share/masc_chassis_can_sdk/hook/path.sh
+source;share/masc_chassis_can_sdk/hook/pythonscriptspath.ps1
+source;share/masc_chassis_can_sdk/hook/pythonscriptspath.dsv
+source;share/masc_chassis_can_sdk/hook/pythonscriptspath.sh
+source;share/masc_chassis_can_sdk/local_setup.bash
+source;share/masc_chassis_can_sdk/local_setup.dsv
+source;share/masc_chassis_can_sdk/local_setup.ps1
+source;share/masc_chassis_can_sdk/local_setup.sh
+source;share/masc_chassis_can_sdk/local_setup.zsh

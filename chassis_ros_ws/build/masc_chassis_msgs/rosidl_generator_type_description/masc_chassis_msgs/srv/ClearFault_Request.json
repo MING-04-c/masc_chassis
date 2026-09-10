@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "masc_chassis_msgs/srv/ClearFault_Request",
+      "fields": [
+        {
+          "name": "fault_id",
+          "type": {
+            "type_id": 5,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "masc_chassis_msgs/srv/ClearFault_Request",
+      "hash_string": "RIHS01_e59b44ab99ddd7c0e510b34cc4ce66d9f4b495bd6eb6d1048da68d732b974cb2"
+    }
+  ]
+}

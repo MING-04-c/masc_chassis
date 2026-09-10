@@ -1,0 +1,6 @@
+setup.py
+masc_chassis_msgs/__init__.py
+masc_chassis_msgs.egg-info/PKG-INFO
+masc_chassis_msgs.egg-info/SOURCES.txt
+masc_chassis_msgs.egg-info/dependency_links.txt
+masc_chassis_msgs.egg-info/top_level.txt

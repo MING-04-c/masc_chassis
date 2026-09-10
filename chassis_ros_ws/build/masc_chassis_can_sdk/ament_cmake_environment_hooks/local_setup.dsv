@@ -1,0 +1,3 @@
+source;share/masc_chassis_can_sdk/environment/ament_prefix_path.sh
+source;share/masc_chassis_can_sdk/environment/library_path.sh
+source;share/masc_chassis_can_sdk/environment/path.sh

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from masc_chassis_msgs/msg/ServoMotorStatusArray.msg
+// generated code does not contain a copyright notice
+
+#include "masc_chassis_msgs/msg/ServoMotorStatus.idl"
+#include "std_msgs/msg/Header.idl"
+
+module masc_chassis_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Function: Servo motor status array." "\n"
+      "Msg Name: ServoMotorStatusArray")
+    struct ServoMotorStatusArray {
+      std_msgs::msg::Header header;
+
+      sequence<masc_chassis_msgs::msg::ServoMotorStatus> status;
+    };
+  };
+};

@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from masc_chassis_msgs/msg/DriveMotor.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module masc_chassis_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Function: Drive motor feedback for one protocol index." "\n"
+      "Msg Name: DriveMotor")
+    struct DriveMotor {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "单位：无，协议索引，由 CAN ID 范围计算")
+      uint8 index;
+
+      @verbatim (language="comment", text=
+        "单位：m/s，驱动轮线速度")
+      double speed;
+
+      @verbatim (language="comment", text=
+        "单位：A，驱动电机电流")
+      double current;
+
+      @verbatim (language="comment", text=
+        "单位：m，驱动轮累计位置")
+      double position;
+    };
+  };
+};

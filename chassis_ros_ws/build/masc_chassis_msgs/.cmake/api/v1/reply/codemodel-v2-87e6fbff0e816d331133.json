@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ce54f33a2cabcf994c7c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "masc_chassis_msgs__py",
+					"jsonFile" : "directory-masc_chassis_msgs__py-709900a72ea421a4f088.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs/masc_chassis_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "masc_chassis_msgs__rs",
+					"jsonFile" : "directory-masc_chassis_msgs__rs-1418dd39e5c1038c31d1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs/masc_chassis_msgs__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "masc_chassis_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_masc_chassis_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_masc_chassis_msgs_egg-513b37284ce563bcc3e7.json",
+					"name" : "ament_cmake_python_build_masc_chassis_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_masc_chassis_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_masc_chassis_msgs-59c3c67b17deb39b1f39.json",
+					"name" : "ament_cmake_python_copy_masc_chassis_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "masc_chassis_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-masc_chassis_msgs-1ed3c2e790020f5c7b65.json",
+					"name" : "masc_chassis_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "masc_chassis_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-masc_chassis_msgs__cpp-28e82dc67757d90e5f03.json",
+					"name" : "masc_chassis_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "masc_chassis_msgs__py::@6c340a74e234057ece14",
+					"jsonFile" : "target-masc_chassis_msgs__py-b3ebcb9c52e906ba98cb.json",
+					"name" : "masc_chassis_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "masc_chassis_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-masc_chassis_msgs__rosidl_generator_c-12a0e2a1200454599200.json",
+					"name" : "masc_chassis_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "masc_chassis_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-masc_chassis_msgs__rosidl_generator_py-b85dc6bd030bb0336e27.json",
+					"name" : "masc_chassis_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "masc_chassis_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-masc_chassis_msgs__rosidl_generator_type_description-abb711d6737517d79a8b.json",
+					"name" : "masc_chassis_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "masc_chassis_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-masc_chassis_msgs__rosidl_typesupport_c-cfd1708e8cc943130d8f.json",
+					"name" : "masc_chassis_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "masc_chassis_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-masc_chassis_msgs__rosidl_typesupport_cpp-a2a13c766b0571596f86.json",
+					"name" : "masc_chassis_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "masc_chassis_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-masc_chassis_msgs__rosidl_typesupport_fastrtps_c-162ed26b69a66c55777e.json",
+					"name" : "masc_chassis_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "masc_chassis_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-masc_chassis_msgs__rosidl_typesupport_fastrtps_cpp-caf49687062ab2b3cab3.json",
+					"name" : "masc_chassis_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "masc_chassis_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-masc_chassis_msgs__rosidl_typesupport_introspection_c-133bd50dc51bc34f7afc.json",
+					"name" : "masc_chassis_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "masc_chassis_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-masc_chassis_msgs__rosidl_typesupport_introspection_cpp-04e1a9ddac4d072ba77a.json",
+					"name" : "masc_chassis_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "masc_chassis_msgs__rs::@646ee94da63cc3b45702",
+					"jsonFile" : "target-masc_chassis_msgs__rs-0dc0de99dc229598ffb8.json",
+					"name" : "masc_chassis_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "masc_chassis_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-masc_chassis_msgs_s__rosidl_typesupport_c-0e34b14004bf8eb326db.json",
+					"name" : "masc_chassis_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "masc_chassis_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-masc_chassis_msgs_s__rosidl_typesupport_fastrtps_c-ba4bdafd85891ecb1d96.json",
+					"name" : "masc_chassis_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "masc_chassis_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-masc_chassis_msgs_s__rosidl_typesupport_introspection_c-26ce60e3ef11e87280c1.json",
+					"name" : "masc_chassis_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "masc_chassis_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-masc_chassis_msgs_uninstall-b992df0014f6874edead.json",
+					"name" : "masc_chassis_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6424c7c6cb68000bfe46.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs",
+		"source" : "/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
