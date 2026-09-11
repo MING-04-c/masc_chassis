@@ -1,1 +1,1 @@
-prepend-non-duplicate;AMENT_PREFIX_PATH;
+/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver/ament_cmake_environment_hooks/ament_prefix_path.dsv

@@ -4,6 +4,8 @@
  */
 #pragma once
 
+// 将 ROS1/ROS2 的消息类型起统一别名，例如 rosmsg::Twist、rosmsg::Odometry。
+// 这样核心驱动无需在每个函数里写两套消息类型名称。
 #if defined(MASC_CHASSIS_USE_ROS2)
 
 #include "geometry_msgs/msg/transform_stamped.hpp"

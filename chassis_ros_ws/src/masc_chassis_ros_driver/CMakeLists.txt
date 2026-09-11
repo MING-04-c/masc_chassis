@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
+# 本文件负责选择 ROS1/ROS2 构建方式、查找依赖并生成驱动可执行程序。
 project(masc_chassis_ros_driver VERSION 1.0.0 LANGUAGES CXX)
 
 find_package(Threads REQUIRED)
@@ -28,6 +29,7 @@ if(MASC_CHASSIS_USE_ROS1 AND MASC_CHASSIS_USE_ROS2)
 endif()
 
 if(MASC_CHASSIS_USE_ROS2)
+    # ROS2 使用 ament_cmake 和 rclcpp。
     find_package(ament_cmake REQUIRED)
     find_package(rclcpp REQUIRED)
     find_package(geometry_msgs REQUIRED)
@@ -43,6 +45,7 @@ if(MASC_CHASSIS_USE_ROS2)
 
     add_compile_definitions(MASC_CHASSIS_USE_ROS2)
 elseif(MASC_CHASSIS_USE_ROS1)
+    # ROS1 使用 catkin 和 roscpp。
     find_package(catkin REQUIRED COMPONENTS
         geometry_msgs
         masc_chassis_can_sdk
@@ -87,6 +90,7 @@ set(MASC_CHASSIS_DRIVER_SOURCES
     src/ros_conversions.cpp
 )
 
+# 将多个 cpp 编译成一个 ROS 节点可执行文件。
 add_executable(masc_chassis_ros_driver_node ${MASC_CHASSIS_DRIVER_SOURCES})
 
 target_include_directories(masc_chassis_ros_driver_node

@@ -16,6 +16,8 @@
 
 namespace masc_chassis_ros_driver {
 
+// ROS1 封装层：提供与 ROS2 适配层相同的函数名，方便同一套驱动源码双版本编译。
+
 class RosNodeBase {
 public:
     explicit RosNodeBase(const std::string & /*node_name*/) : m_nh(), m_private_nh("~") {}

@@ -1,2 +1,1 @@
-source;share/masc_chassis_ros_driver/environment/ament_prefix_path.sh
-source;share/masc_chassis_ros_driver/environment/path.sh
+/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver/ament_cmake_environment_hooks/local_setup.dsv

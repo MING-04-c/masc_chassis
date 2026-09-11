@@ -1,4 +1,4 @@
-"""MASC chassis ROS2 driver launch file."""
+"""ROS2 启动文件：加载参数、启动底盘节点并设置 topic 重映射。"""
 
 import os
 
@@ -11,6 +11,7 @@ from launch_ros.parameter_descriptions import ParameterValue
 
 
 def generate_launch_description():
+    # 获取安装后的包目录，这样从任意工作目录执行 ros2 launch 都能找到配置文件。
     pkg_dir = get_package_share_directory('masc_chassis_ros_driver')
 
     odom_topic_remap = DeclareLaunchArgument(
@@ -37,6 +38,7 @@ def generate_launch_description():
         description='Use geometry_msgs/msg/TwistStamped for cmd_vel input',
     )
 
+    # 启动真正的 C++ 驱动节点。参数文件和命令行 launch 参数会合并。
     driver_node = Node(
         package='masc_chassis_ros_driver',
         executable='masc_chassis_ros_driver_node',

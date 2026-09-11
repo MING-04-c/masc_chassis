@@ -1,1 +1,1 @@
-rclcpp;geometry_msgs;masc_chassis_can_sdk;masc_chassis_msgs;nav_msgs;sensor_msgs;std_msgs;std_srvs;tf2;tf2_geometry_msgs;tf2_ros;ament_lint_auto;ament_lint_common
+/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/masc_chassis_ros_driver

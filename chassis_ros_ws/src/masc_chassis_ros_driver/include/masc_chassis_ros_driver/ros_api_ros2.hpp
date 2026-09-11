@@ -13,6 +13,9 @@
 
 namespace masc_chassis_ros_driver {
 
+// ROS2 封装层：统一 Node、Publisher、Subscription、Service、Timer 和时间接口。
+// 上层代码调用这些小函数，不需要到处写 rclcpp 模板细节。
+
 using RosNodeBase = rclcpp::Node;
 using RosNodePtr = std::shared_ptr<RosNodeBase>;
 using RosTime = rclcpp::Time;

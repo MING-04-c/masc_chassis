@@ -25,6 +25,9 @@
 
 namespace masc_chassis_ros_driver {
 
+// ROS 驱动的主节点：负责把 ROS2 的命令/服务转换为 SDK 控制命令，
+// 再把 SDK 收到的 CAN 反馈转换成 ROS2 消息。
+
 enum class ConnectionState : std::uint8_t {
     Unknown,
     Disconnected,
@@ -105,6 +108,7 @@ private:
                static_cast<double>(timeout_ms);
     }
 
+    // 底层 CAN SDK：真正执行 SocketCAN 打开、收帧、解析和发帧。
     masc_chassis_can_sdk::ChassisSdk m_sdk;
     masc_chassis_can_sdk::CanConfig m_can_config;
     CommandFilter m_command_filter;
@@ -134,6 +138,7 @@ private:
     double m_comm_hz = 1.0;
     double m_frame_stats_hz = 1.0;
 
+    // ROS2 发布器：向上层导航、监控和诊断节点发布底盘数据。
     RosPublisher<rosmsg::Odometry> m_odom_publisher;
     RosPublisher<rosmsg::ChassisStatus> m_chassis_status_publisher;
     RosPublisher<rosmsg::BmsStatus> m_bms_status_publisher;
@@ -146,6 +151,7 @@ private:
     RosPublisher<rosmsg::RcStatus> m_rc_status_publisher;
     RosPublisher<rosmsg::CanFrameStatsArray> m_can_frame_stats_publisher;
 
+    // ROS2 订阅器/服务：接收速度控制和一次性控制请求。
     RosSubscription<rosmsg::Twist> m_cmd_vel_subscription;
     RosSubscription<rosmsg::TwistStamped> m_cmd_vel_stamped_subscription;
     RosService<rosmsg::SetMotionMode> m_set_motion_mode_service;
@@ -153,6 +159,7 @@ private:
     RosService<rosmsg::ClearFault> m_clear_fault_service;
     RosService<rosmsg::CalibrateServo> m_calibrate_servo_service;
 
+    // 定时器：命令发送、反馈发布和诊断发布分别按不同频率运行。
     RosTimer m_command_timer;
     RosTimer m_odom_timer;
     RosTimer m_chassis_status_timer;

@@ -13,6 +13,9 @@
 
 namespace masc_chassis_ros_driver {
 
+// 每条反馈都保存“数据 + 接收时间 + 是否有效 + 更新次数”。
+// ROS 定时器用时间判断超时，用 sequence 判断是否有新数据。
+
 template <typename T>
 struct StampedCache {
     T m_data;
