@@ -15,9 +15,11 @@ def generate_launch_description():
                               default_value='0.0.0.0'), 
         DeclareLaunchArgument('listen_port', 
                               default_value='9001'),
+        DeclareLaunchArgument('debug_format', default_value='auto',
+                              description='调试发送格式: auto/ascii/hex'),
         Node(package='masc_user_serial', 
              executable='masc_tcp_node',
              name='masc_tcp_node', 
              output='screen', 
-             parameters=[{'remote_ip':arm_ip},{'remote_port':arm_port},{'listen_ip':LaunchConfiguration('listen_ip')},{'listen_port':LaunchConfiguration('listen_port')}]),
+             parameters=[{'remote_ip':arm_ip},{'remote_port':arm_port},{'listen_ip':LaunchConfiguration('listen_ip')},{'listen_port':LaunchConfiguration('listen_port')},{'debug_format':LaunchConfiguration('debug_format')}]),
     ])
