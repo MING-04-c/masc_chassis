@@ -1,0 +1,24 @@
+cmake_minimum_required(VERSION 3.8)
+project(masc_chassis_user_control)
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(std_srvs REQUIRED)
+find_package(rclcpp REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "srv/MoveDistance.srv"
+)
+
+add_executable(distance_controller_node src/distance_controller_node.cpp)
+target_compile_features(distance_controller_node PRIVATE cxx_std_17)
+ament_target_dependencies(distance_controller_node rclcpp geometry_msgs nav_msgs std_srvs)
+rosidl_get_typesupport_target(cpp_typesupport_target ${PROJECT_NAME} "rosidl_typesupport_cpp")
+target_link_libraries(distance_controller_node "${cpp_typesupport_target}")
+
+install(TARGETS distance_controller_node DESTINATION lib/${PROJECT_NAME})
+install(DIRECTORY launch config DESTINATION share/${PROJECT_NAME})
+ament_export_dependencies(rosidl_default_runtime)
+ament_package()

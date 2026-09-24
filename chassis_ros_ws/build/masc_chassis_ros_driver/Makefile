@@ -210,6 +210,19 @@ masc_chassis_ros_driver_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/masc_chassis_ros_driver_node.dir/build.make CMakeFiles/masc_chassis_ros_driver_node.dir/build
 .PHONY : masc_chassis_ros_driver_node/fast
 
+#=============================================================================
+# Target rules for targets named target_pid_controller_node
+
+# Build rule for target.
+target_pid_controller_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 target_pid_controller_node
+.PHONY : target_pid_controller_node
+
+# fast build rule for target.
+target_pid_controller_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/target_pid_controller_node.dir/build.make CMakeFiles/target_pid_controller_node.dir/build
+.PHONY : target_pid_controller_node/fast
+
 src/auto_lock_controller.o: src/auto_lock_controller.cpp.o
 .PHONY : src/auto_lock_controller.o
 
@@ -378,6 +391,30 @@ src/ros_conversions.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/masc_chassis_ros_driver_node.dir/build.make CMakeFiles/masc_chassis_ros_driver_node.dir/src/ros_conversions.cpp.s
 .PHONY : src/ros_conversions.cpp.s
 
+src/target_pid_controller_node.o: src/target_pid_controller_node.cpp.o
+.PHONY : src/target_pid_controller_node.o
+
+# target to build an object file
+src/target_pid_controller_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/target_pid_controller_node.dir/build.make CMakeFiles/target_pid_controller_node.dir/src/target_pid_controller_node.cpp.o
+.PHONY : src/target_pid_controller_node.cpp.o
+
+src/target_pid_controller_node.i: src/target_pid_controller_node.cpp.i
+.PHONY : src/target_pid_controller_node.i
+
+# target to preprocess a source file
+src/target_pid_controller_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/target_pid_controller_node.dir/build.make CMakeFiles/target_pid_controller_node.dir/src/target_pid_controller_node.cpp.i
+.PHONY : src/target_pid_controller_node.cpp.i
+
+src/target_pid_controller_node.s: src/target_pid_controller_node.cpp.s
+.PHONY : src/target_pid_controller_node.s
+
+# target to generate assembly for a file
+src/target_pid_controller_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/target_pid_controller_node.dir/build.make CMakeFiles/target_pid_controller_node.dir/src/target_pid_controller_node.cpp.s
+.PHONY : src/target_pid_controller_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -394,6 +431,7 @@ help:
 	@echo "... masc_chassis_ros_driver_uninstall"
 	@echo "... uninstall"
 	@echo "... masc_chassis_ros_driver_node"
+	@echo "... target_pid_controller_node"
 	@echo "... src/auto_lock_controller.o"
 	@echo "... src/auto_lock_controller.i"
 	@echo "... src/auto_lock_controller.s"
@@ -415,6 +453,9 @@ help:
 	@echo "... src/ros_conversions.o"
 	@echo "... src/ros_conversions.i"
 	@echo "... src/ros_conversions.s"
+	@echo "... src/target_pid_controller_node.o"
+	@echo "... src/target_pid_controller_node.i"
+	@echo "... src/target_pid_controller_node.s"
 .PHONY : help
 
 

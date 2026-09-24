@@ -93,6 +93,8 @@ set(MASC_CHASSIS_DRIVER_SOURCES
 # 将多个 cpp 编译成一个 ROS 节点可执行文件。
 add_executable(masc_chassis_ros_driver_node ${MASC_CHASSIS_DRIVER_SOURCES})
 
+add_executable(target_pid_controller_node src/target_pid_controller_node.cpp)
+
 target_include_directories(masc_chassis_ros_driver_node
     PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}/include
@@ -117,6 +119,8 @@ if(MASC_CHASSIS_USE_ROS2)
         masc_chassis_ros_driver_node
         masc_chassis_can_sdk::masc_chassis_can_sdk
     )
+    ament_target_dependencies(target_pid_controller_node
+        rclcpp geometry_msgs nav_msgs std_msgs)
 else()
     target_include_directories(masc_chassis_ros_driver_node PRIVATE ${catkin_INCLUDE_DIRS})
     add_dependencies(masc_chassis_ros_driver_node ${catkin_EXPORTED_TARGETS})
@@ -125,6 +129,9 @@ endif()
 
 if(MASC_CHASSIS_USE_ROS2)
     install(TARGETS masc_chassis_ros_driver_node
+        DESTINATION lib/${PROJECT_NAME}
+    )
+    install(TARGETS target_pid_controller_node
         DESTINATION lib/${PROJECT_NAME}
     )
     install(DIRECTORY config/

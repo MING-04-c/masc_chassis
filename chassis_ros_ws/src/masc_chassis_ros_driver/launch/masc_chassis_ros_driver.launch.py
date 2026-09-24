@@ -5,6 +5,7 @@ import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
+from launch.conditions import IfCondition
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 from launch_ros.parameter_descriptions import ParameterValue
@@ -28,14 +29,24 @@ def generate_launch_description():
 
     cmd_vel_topic = DeclareLaunchArgument(
         'cmd_vel_topic',
-        default_value='cmd_vel_nav',
-        description='Remap topic name for chassis cmd_vel input',
+        default_value='/cmd_vel',
+        description='ROS 2 velocity command topic',
     )
 
     stamped_control = DeclareLaunchArgument(
         'stamped_control',
-        default_value='true',
+        default_value='false',
         description='Use geometry_msgs/msg/TwistStamped for cmd_vel input',
+    )
+
+    enable_pid = DeclareLaunchArgument(
+        'enable_pid', default_value='true',
+        description='Start the integrated target PID controller',
+    )
+    pid_params = DeclareLaunchArgument(
+        'pid_params',
+        default_value=os.path.join(pkg_dir, 'config', 'ros2', 'target_pid_params.yaml'),
+        description='Target PID parameter file',
     )
 
     # 启动真正的 C++ 驱动节点。参数文件和命令行 launch 参数会合并。
@@ -61,10 +72,26 @@ def generate_launch_description():
         ],
     )
 
+    pid_node = Node(
+        package='masc_chassis_ros_driver',
+        executable='target_pid_controller_node',
+        name='target_pid_controller',
+        output='screen',
+        condition=IfCondition(LaunchConfiguration('enable_pid')),
+        parameters=[LaunchConfiguration('pid_params')],
+        remappings=[
+            ('wheel_odom', LaunchConfiguration('odom_topic_remap')),
+            ('cmd_vel', LaunchConfiguration('cmd_vel_topic')),
+        ],
+    )
+
     return LaunchDescription([
         odom_topic_remap,
         driver_params,
         cmd_vel_topic,
         stamped_control,
+        enable_pid,
+        pid_params,
         driver_node,
+        pid_node,
     ])
