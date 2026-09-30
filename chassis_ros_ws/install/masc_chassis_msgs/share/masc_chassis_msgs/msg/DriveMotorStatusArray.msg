@@ -1,6 +1,1 @@
-# Function: Drive motor status array.
-# Msg Name: DriveMotorStatusArray
-
-std_msgs/Header header
-
-masc_chassis_msgs/DriveMotorStatus[] status
+/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs/msg/DriveMotorStatusArray.msg

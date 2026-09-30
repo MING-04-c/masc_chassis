@@ -102,7 +102,7 @@ class CameraImageTcpNode(Node):
             "allowed_client_ip", DEFAULT_ALLOWED_CLIENT_IP
         ).value
         listen_port = self.declare_parameter("listen_port", 9002).value
-        self.max_fps = self.declare_parameter("max_fps", 10.0).value
+        self.max_fps = self.declare_parameter("max_fps", 60.0).value
         self.image_format = self.declare_parameter("image_format", "jpeg").value
         self.jpeg_quality = self.declare_parameter("jpeg_quality", 80).value
         for parameter_name, address in (

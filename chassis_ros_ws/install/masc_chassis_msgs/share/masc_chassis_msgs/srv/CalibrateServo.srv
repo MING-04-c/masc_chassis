@@ -1,10 +1,1 @@
-# Function: Calibrate servo automatically.
-# Msg Name: CalibrateServo
-# Note: This request triggers firmware automatic calibration.
-# It does not set the current position as the zero point.
-# Maps to servo_calibration_cmd (0x170).
-
-uint16 servo_id
----
-bool success
-string message
+/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs/srv/CalibrateServo.srv

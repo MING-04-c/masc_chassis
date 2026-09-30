@@ -1,9 +1,0 @@
-# 正值 distance 前进，负值 distance 后退，单位 m。
-float64 distance
-# 速度大小，单位 m/s；符号由 distance 决定。
-float64 speed
-# 转弯半径，单位 m；0 表示直线，正值左转，负值右转。
-float64 radius
----
-bool accepted
-string message

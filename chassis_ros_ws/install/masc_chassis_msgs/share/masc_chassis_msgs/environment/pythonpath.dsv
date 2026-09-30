@@ -1,1 +1,1 @@
-prepend-non-duplicate;PYTHONPATH;lib/python3.12/site-packages
+/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs/ament_cmake_environment_hooks/pythonpath.dsv

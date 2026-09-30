@@ -140,6 +140,9 @@ if(MASC_CHASSIS_USE_ROS2)
     install(DIRECTORY launch/
         DESTINATION share/${PROJECT_NAME}/launch
     )
+    install(FILES README.md COMMUNICATION_IMPLEMENTATION.md SUPERVISOR_PROMPT.md
+        DESTINATION share/${PROJECT_NAME}
+    )
     ament_package()
 else()
     install(TARGETS masc_chassis_ros_driver_node

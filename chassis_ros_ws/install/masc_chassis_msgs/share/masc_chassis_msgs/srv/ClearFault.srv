@@ -1,8 +1,1 @@
-# Function: One-shot fault clear request.
-# Msg Name: ClearFault
-# Maps to fault_clear_cmd (0x120).
-
-uint16 fault_id
----
-bool success
-string message
+/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs/srv/ClearFault.srv

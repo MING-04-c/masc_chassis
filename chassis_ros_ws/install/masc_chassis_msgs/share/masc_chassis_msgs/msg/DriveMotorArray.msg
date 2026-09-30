@@ -1,6 +1,1 @@
-# Function: Drive motor feedback array.
-# Msg Name: DriveMotorArray
-
-std_msgs/Header header
-
-masc_chassis_msgs/DriveMotor[] motors
+/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs/msg/DriveMotorArray.msg

@@ -1,18 +1,1 @@
-#![allow(non_camel_case_types)]
-#![allow(clippy::derive_partial_eq_without_eq)]
-#![allow(clippy::upper_case_acronyms)]
-
-#[path = "msg.rs"]
-mod msg_idiomatic;
-pub mod msg {
-    pub use super::msg_idiomatic::*;
-    pub mod rmw;
-}
-
-#[path = "srv.rs"]
-mod srv_idiomatic;
-pub mod srv {
-    pub use super::srv_idiomatic::*;
-    pub mod rmw;
-}
-
+/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs/rosidl_generator_rs/masc_chassis_msgs/rust/src/lib.rs

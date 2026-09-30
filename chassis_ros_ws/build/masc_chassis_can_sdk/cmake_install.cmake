@@ -43,83 +43,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk/libmasc_chassis_can_sdk.a")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_can_sdk/include/")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/masc_chassis_can_sdk_demo" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/masc_chassis_can_sdk_demo")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/masc_chassis_can_sdk_demo"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk/masc_chassis_can_sdk_demo")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/masc_chassis_can_sdk_demo" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/masc_chassis_can_sdk_demo")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/masc_chassis_can_sdk_demo")
-    endif()
-  endif()
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/masc_chassis_can_sdk/environment" TYPE FILE FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/masc_chassis_can_sdk/environment" TYPE FILE FILES "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk/ament_cmake_environment_hooks/library_path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/masc_chassis_can_sdk")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/masc_chassis_can_sdk")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/masc_chassis_can_sdk/environment" TYPE FILE FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/masc_chassis_can_sdk/environment" TYPE FILE FILES "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/masc_chassis_can_sdk/environment" TYPE FILE FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/masc_chassis_can_sdk/environment" TYPE FILE FILES "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/masc_chassis_can_sdk" TYPE FILE FILES "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/masc_chassis_can_sdk" TYPE FILE FILES "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/masc_chassis_can_sdk" TYPE FILE FILES "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/masc_chassis_can_sdk" TYPE FILE FILES "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/masc_chassis_can_sdk" TYPE FILE FILES "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk/ament_cmake_index/share/ament_index/resource_index/packages/masc_chassis_can_sdk")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -143,25 +71,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
     file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/masc_chassis_can_sdk/cmake" TYPE FILE FILES "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk/CMakeFiles/Export/d09d0a0100d6531459c3a0af0f7a949d/export_masc_chassis_can_sdkExport-noconfig.cmake")
   endif()
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/masc_chassis_can_sdk/cmake" TYPE FILE FILES "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/masc_chassis_can_sdk/cmake" TYPE FILE FILES "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/masc_chassis_can_sdk/cmake" TYPE FILE FILES
-    "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk/ament_cmake_core/masc_chassis_can_sdkConfig.cmake"
-    "/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_can_sdk/ament_cmake_core/masc_chassis_can_sdkConfig-version.cmake"
-    )
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/masc_chassis_can_sdk" TYPE FILE FILES "/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_can_sdk/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

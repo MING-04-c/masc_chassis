@@ -1,6 +1,1 @@
-# Function: Servo motor status array.
-# Msg Name: ServoMotorStatusArray
-
-std_msgs/Header header
-
-masc_chassis_msgs/ServoMotorStatus[] status
+/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs/msg/ServoMotorStatusArray.msg

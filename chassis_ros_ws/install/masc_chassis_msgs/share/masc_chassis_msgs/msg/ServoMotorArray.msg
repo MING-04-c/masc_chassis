@@ -1,6 +1,1 @@
-# Function: Servo motor feedback array.
-# Msg Name: ServoMotorArray
-
-std_msgs/Header header
-
-masc_chassis_msgs/ServoMotor[] motors
+/home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_msgs/msg/ServoMotorArray.msg

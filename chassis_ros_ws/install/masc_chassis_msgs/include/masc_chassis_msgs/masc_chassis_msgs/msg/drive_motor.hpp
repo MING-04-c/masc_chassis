@@ -1,12 +1,1 @@
-// generated from rosidl_generator_cpp/resource/idl.hpp.em
-// generated code does not contain a copyright notice
-
-#ifndef MASC_CHASSIS_MSGS__MSG__DRIVE_MOTOR_HPP_
-#define MASC_CHASSIS_MSGS__MSG__DRIVE_MOTOR_HPP_
-
-#include "masc_chassis_msgs/msg/detail/drive_motor__struct.hpp"
-#include "masc_chassis_msgs/msg/detail/drive_motor__builder.hpp"
-#include "masc_chassis_msgs/msg/detail/drive_motor__traits.hpp"
-#include "masc_chassis_msgs/msg/detail/drive_motor__type_support.hpp"
-
-#endif  // MASC_CHASSIS_MSGS__MSG__DRIVE_MOTOR_HPP_
+/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs/rosidl_generator_cpp/masc_chassis_msgs/msg/drive_motor.hpp

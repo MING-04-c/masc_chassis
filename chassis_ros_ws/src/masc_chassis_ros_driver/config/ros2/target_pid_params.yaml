@@ -9,12 +9,21 @@
     kd_yaw: 0.05
 
     # Stop thresholds. Inside both deadbands the controller publishes zero velocity.
-    position_deadband: 0.002
-    yaw_deadband: 0.001
+    position_deadband: 0.005
+    yaw_deadband: 0.02
 
     # Output limits.
-    # 线速度上限：0.01 m/s = 1 cm/s
+    # 线速度上限：0.05 m/s = 5 cm/s
     max_linear_speed: 0.05
     max_angular_speed: 0.8
     integral_limit: 1.0
     control_period: 0.02
+
+    # TCP 任务的名称、距离和顺序在 task_plans.yaml 中配置。
+    task_timeout_sec: 10.0
+    odom_timeout_sec: 0.5
+    status_period_sec: 0.5
+    test_start_topic: /chassis/task_start
+    control_topic: /chassis/control_command
+    status_topic: /chassis_arrival_status
+    target_reached_topic: /target_reached

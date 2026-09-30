@@ -48,6 +48,23 @@ def generate_launch_description():
         default_value=os.path.join(pkg_dir, 'config', 'ros2', 'target_pid_params.yaml'),
         description='Target PID parameter file',
     )
+    task_plans = DeclareLaunchArgument(
+        'task_plans',
+        default_value=os.path.join(pkg_dir, 'config', 'ros2', 'task_plans.yaml'),
+        description='Task names, signed distances, and execution sequence',
+    )
+    test_start_topic = DeclareLaunchArgument(
+        'test_start_topic', default_value='/chassis/task_start',
+    )
+    control_topic = DeclareLaunchArgument(
+        'control_topic', default_value='/chassis/control_command',
+    )
+    task_status_topic = DeclareLaunchArgument(
+        'task_status_topic', default_value='/chassis_arrival_status',
+    )
+    target_reached_topic = DeclareLaunchArgument(
+        'target_reached_topic', default_value='/target_reached',
+    )
 
     # 启动真正的 C++ 驱动节点。参数文件和命令行 launch 参数会合并。
     driver_node = Node(
@@ -78,7 +95,17 @@ def generate_launch_description():
         name='target_pid_controller',
         output='screen',
         condition=IfCondition(LaunchConfiguration('enable_pid')),
-        parameters=[LaunchConfiguration('pid_params')],
+        parameters=[
+            LaunchConfiguration('pid_params'),
+            LaunchConfiguration('task_plans'),
+            {
+                'test_start_topic': LaunchConfiguration('test_start_topic'),
+                'control_topic': LaunchConfiguration('control_topic'),
+                'status_topic': LaunchConfiguration('task_status_topic'),
+                'target_reached_topic': LaunchConfiguration(
+                    'target_reached_topic'),
+            },
+        ],
         remappings=[
             ('wheel_odom', LaunchConfiguration('odom_topic_remap')),
             ('cmd_vel', LaunchConfiguration('cmd_vel_topic')),
@@ -92,6 +119,11 @@ def generate_launch_description():
         stamped_control,
         enable_pid,
         pid_params,
+        task_plans,
+        test_start_topic,
+        control_topic,
+        task_status_topic,
+        target_reached_topic,
         driver_node,
         pid_node,
     ])

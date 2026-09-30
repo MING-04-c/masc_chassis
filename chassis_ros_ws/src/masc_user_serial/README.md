@@ -1,34 +1,38 @@
 
-网络配置可通过环境变量设置：
+# MASC TCP 总启动
+
+编译并加载工作空间后，一条命令启动底盘驱动、海康相机、状态 TCP 和图片 TCP：
 
 ```bash
-MASC_ARM_IP=192.168.1.20 MASC_ARM_PORT=9000 ros2 run masc_user_serial masc_tcp_node
+ros2 launch masc_user_serial masc_tcp.launch.py
 ```
 
-推荐使用 launch 文件配置：
+默认网络配置：本机网线 `169.254.199.100`，上位机 `169.254.199.250`，状态端口 `9001`，
+图片端口 `9002`。如果不需要启动某个硬件驱动，可以覆盖开关：
 
 ```bash
-ros2 launch masc_user_serial masc_tcp.launch.py arm_ip:=192.168.1.20 arm_port:=9000
+ros2 launch masc_user_serial masc_tcp.launch.py \
+  start_chassis_driver:=false \
+  start_hik_camera:=false
 ```
 
-双向调试：向 `tcp_debug_tx` 发布字符串即可发送到 TCP 对端；对端返回的数据会发布到 `tcp_rx`。
+上位机发回的非 ACK 状态 JSON 会发布到 `/tcp_rx`：
 
 ```bash
-ros2 topic pub --once /tcp_debug_tx std_msgs/msg/String "{data: 'ping'}"
 ros2 topic echo /tcp_rx
 ```
 
 ## 相机图片 TCP 输出
 
-先启动海康相机，再运行 `ros2 launch masc_user_serial masc_tcp.launch.py`。图像节点订阅 `/camera/image`，可发送 JPEG 或原始 ROS 图像字节，通过网线接口 `169.254.199.100:9002` 输出，只接受来自 `169.254.199.250` 的连接。原有 9001 端口的字符串/调试通讯保持不变。
+运行 `ros2 launch masc_user_serial masc_tcp.launch.py` 会同时启动底盘驱动、海康相机、9001 状态/控制服务和9002图像服务。组合启动强制传入 `show_image:=false`，因此不会启动 OpenCV 预览窗口。图像节点订阅 `/camera/image`，默认发送 JPEG，通过网线接口 `169.254.199.100:9002` 输出；状态节点在 `169.254.199.100:9001` 输出相机与底盘状态，并接收操控电脑的底盘控制命令。两个端口都只接受来自 `169.254.199.250` 的连接。
 
 ```bash
-ros2 launch masc_user_serial masc_tcp.launch.py image_topic:=/camera/image image_max_fps:=10.0
+ros2 launch masc_user_serial masc_tcp.launch.py image_topic:=/camera/image image_max_fps:=60.0
 ```
 
-默认仍是 JPEG 模式。需要无压缩原始图像时运行 `ros2 launch masc_user_serial masc_tcp.launch.py image_format:=raw`，对端将收到 ROS `Image.data` 原样字节，图像编码等信息见 JSON 帧头。默认最多传输 10 帧/秒，慢客户端会跳过中间帧。暂时不需要图像服务可加 `image_stream:=false`。另一台电脑用网线直连的方法、逐字节协议和 Python 接收程序见 [CAMERA_TCP_PROTOCOL.md](CAMERA_TCP_PROTOCOL.md)。接收程序在 `tools/receive_camera_tcp.py`。
+默认使用 JPEG 图片模式，JPEG 质量为 80，对端收到可直接打开的完整 `.jpg` 图片。默认最多传输 60 帧/秒，慢客户端会跳过中间帧。需要原始 ROS 图像字节时可加 `image_format:=raw`。暂时不需要图像服务可加 `image_stream:=false`；已有其他相机进程时可加 `start_hik_camera:=false`。另一台电脑用网线直连的方法、逐字节协议和 Python 接收程序见 [CAMERA_TCP_PROTOCOL.md](CAMERA_TCP_PROTOCOL.md)。接收程序在 `tools/receive_camera_tcp.py`。
 
-只启动图像服务、不启动原有 9001 TCP 服务时，可运行：
+只启动图像服务、不启动9001状态服务时，可运行：
 
 ```bash
 ros2 run masc_user_serial camera_image_tcp_node.py
@@ -42,3 +46,30 @@ python3 receive_camera_tcp.py --host 169.254.199.100 --port 9002 --latest latest
 ```
 
 如果网线 IP 改变，用 `image_listen_ip:=本机IP image_allowed_client_ip:=对端IP` 覆盖启动参数。
+
+## 统一通信协议
+
+相机信息、JPEG 图片、底盘到达状态以及底盘控制命令见
+[MASC_COMMUNICATION_PROTOCOL.md](MASC_COMMUNICATION_PROTOCOL.md)。该文档可以直接交给上位机端实现；
+9001 状态协议和9002图片协议均已接入总 launch。
+
+任务由 `task_plans.yaml` 配置，默认包含前后、左右和左右旋转。上位机发送
+`command=execute_task` 和任务名即可直接启动；也兼容 `select_plan + continue`。
+节点向 `/chassis/task_start` 发布方案名称，
+并立即开始每 500 ms 上报 `running`。实际底盘任务
+到达后，执行节点向 `/target_reached` 发布 `true`，TCP 节点随后每 500 ms
+上报 `completed`，直到收到上位机 ACK。
+
+```bash
+# 仅用于联调：模拟底盘真实到达
+ros2 topic pub --once /target_reached std_msgs/msg/Bool '{data: true}'
+
+# 查看上位机是否在最近 3 秒内发过有效消息
+ros2 topic echo /tcp/supervisor_online
+```
+
+`stop` 会立即回复 ACK、向 `/cmd_vel` 发布一次全零 `Twist`，并上报
+`message=stopped_by_supervisor` 的 error 终态。总 launch 默认启用
+`masc_chassis_ros_driver` 内的 `target_pid_controller_node`；该节点收到
+`/chassis/task_start` 后，根据 YAML 中的 x、y、yaw 增量执行平移或旋转，
+到达后自动发布 `/target_reached=true`。

@@ -4,19 +4,19 @@ This protocol sends ROS `/camera/image` frames from `masc_user_serial` over dire
 
 ## Choose the image mode
 
-Start the Hik camera driver on the camera computer, then choose one mode:
+The combined launch starts the Hik camera driver with `show_image=false`, so no preview window consumes image-processing resources. JPEG mode is the default:
 
 ```bash
-# Existing JPEG mode (default; lossy, usually smaller)
+# JPEG mode (default; lossy, usually smaller)
 ros2 launch masc_user_serial masc_tcp.launch.py image_format:=jpeg
 
-# New raw mode (exact bytes of the ROS sensor_msgs/Image.data field)
+# Raw mode (exact bytes of the ROS sensor_msgs/Image.data field)
 ros2 launch masc_user_serial masc_tcp.launch.py image_format:=raw
 ```
 
 `raw` does not JPEG encode or otherwise modify `Image.data`. It does **not** contain the sensor's original Bayer bytes if the camera driver already converted them: the current Hik driver publishes `rgb8` after SDK conversion. The raw TCP payload is exactly that ROS `rgb8` image's data, including any row padding.
 
-Both modes send at most `image_max_fps` (default 10) frames per second. The server keeps only its latest frame, so slow clients and the frame-rate limit can skip camera frames. TCP preserves bytes within a delivered frame, but this protocol does not guarantee receipt of every camera frame.
+Both modes send at most `image_max_fps` (default 60) frames per second. The server keeps only its latest frame, so slow clients and the frame-rate limit can skip camera frames. TCP preserves bytes within a delivered frame, but this protocol does not guarantee receipt of every camera frame.
 
 ## Receive on the other computer
 
@@ -103,12 +103,13 @@ The v1 payload is a complete JPEG file. JPEG is lossy. The updated receiver acce
 | Argument | Default | Meaning |
 |---|---:|---|
 | `image_stream` | `true` | Start image TCP service |
+| `start_hik_camera` | `true` | Start Hik camera driver with its preview disabled |
 | `image_topic` | `/camera/image` | ROS image topic |
 | `image_listen_ip` | `169.254.199.100` | Camera computer Ethernet IP |
 | `image_allowed_client_ip` | `169.254.199.250` | Only accepted client source IP |
 | `image_port` | `9002` | Image TCP port |
 | `image_format` | `jpeg` | `jpeg` or `raw` |
 | `image_jpeg_quality` | `80` | JPEG quality, ignored in raw mode |
-| `image_max_fps` | `10.0` | Maximum transmitted frame rate |
+| `image_max_fps` | `60.0` | Maximum transmitted frame rate |
 
 The server subscribes using ROS sensor-data QoS and builds frames only while a TCP client is connected.

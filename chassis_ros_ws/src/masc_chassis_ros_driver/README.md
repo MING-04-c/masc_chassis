@@ -1,5 +1,9 @@
 # MASC 底盘 ROS 驱动 API
 
+固定 TCP `test` 方案（从当前位置向正前方运动 10 cm）的控制链、状态变化和参数见
+[COMMUNICATION_IMPLEMENTATION.md](COMMUNICATION_IMPLEMENTATION.md)。可直接交给主机端 Codex
+的实现提示词见 [SUPERVISOR_PROMPT.md](SUPERVISOR_PROMPT.md)。
+
 多机协同（苏州）有限公司-MASC 驱动API。
 
 `masc_chassis_ros_driver` 是 MASC 底盘 CAN SDK 的 ROS 通讯驱动节点。同时支持

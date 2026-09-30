@@ -1,4 +1,1 @@
-source;share/masc_chassis_msgs/environment/ament_prefix_path.sh
-source;share/masc_chassis_msgs/environment/library_path.sh
-source;share/masc_chassis_msgs/environment/path.sh
-source;share/masc_chassis_msgs/environment/pythonpath.sh
+/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_msgs/ament_cmake_environment_hooks/local_setup.dsv
