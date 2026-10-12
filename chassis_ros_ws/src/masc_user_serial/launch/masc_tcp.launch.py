@@ -1,3 +1,16 @@
+"""MASC 总启动：默认只启动底盘驱动、PID 和 9001 状态/控制 TCP。
+
+不启动摄像头（默认）：
+    ros2 launch masc_user_serial masc_tcp.launch.py
+
+需要摄像头和 9002 图像 TCP 时显式开启：
+    ros2 launch masc_user_serial masc_tcp.launch.py \
+        start_hik_camera:=true image_stream:=true
+
+启动前请先 source 工作空间的 install/setup.bash。can0 由
+masc-chassis-can.service 在开机时配置。
+"""
+
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
 from launch.conditions import IfCondition
@@ -14,8 +27,8 @@ def generate_launch_description():
                               description='同时启动 MASC 底盘 ROS 驱动'),
         DeclareLaunchArgument('chassis_enable_pid', default_value='true',
                               description='启动底盘内置PID和方案1的10厘米控制'),
-        DeclareLaunchArgument('start_hik_camera', default_value='true',
-                              description='同时启动海康相机驱动（不启动预览窗口）'),
+        DeclareLaunchArgument('start_hik_camera', default_value='false',
+                              description='启动海康相机驱动；默认不启动摄像头'),
         DeclareLaunchArgument('status_stream', default_value='true',
                               description='启动 9001 状态 TCP 服务'),
         DeclareLaunchArgument('status_listen_ip', default_value='169.254.199.100',
@@ -23,8 +36,8 @@ def generate_launch_description():
         DeclareLaunchArgument('status_allowed_client_ip', default_value='169.254.199.250',
                               description='允许连接状态端口的上位机 IPv4 地址'),
         DeclareLaunchArgument('status_port', default_value='9001'),
-        DeclareLaunchArgument('image_stream', default_value='true',
-                              description='启动图像 TCP 服务'),
+        DeclareLaunchArgument('image_stream', default_value='false',
+                              description='启动 9002 图像 TCP 服务；默认不启动'),
         DeclareLaunchArgument('image_topic', default_value='/camera/image'),
         DeclareLaunchArgument('camera_info_topic', default_value='/camera/camera_info'),
         DeclareLaunchArgument('chassis_status_topic',

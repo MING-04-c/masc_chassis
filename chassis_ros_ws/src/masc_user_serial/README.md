@@ -1,19 +1,46 @@
 
 # MASC TCP 总启动
 
-编译并加载工作空间后，一条命令启动底盘驱动、海康相机、状态 TCP 和图片 TCP：
+## CAN 开机自动初始化（只需安装一次）
+
+`can0` 的波特率和 UP 状态在树莓派重启后不会自动保留。不要把需要 root 权限的
+`ip link` 命令直接放进普通 ROS launch；安装 systemd 服务后，系统会在每次开机时
+自动把 `can0` 配置为 500 kbit/s，并设置 100 ms bus-off 自动恢复：
 
 ```bash
+cd /home/tiema/project/masc_chassis/chassis_ros_ws
+sudo ./scripts/install_can_service.sh
+```
+
+安装只需执行一次。下面的总 launch 默认启动底盘驱动、PID 和 9001 TCP，不启动摄像头：
+
+```bash
+source install/setup.bash
 ros2 launch masc_user_serial masc_tcp.launch.py
 ```
 
-默认网络配置：本机网线 `169.254.199.100`，上位机 `169.254.199.250`，状态端口 `9001`，
-图片端口 `9002`。如果不需要启动某个硬件驱动，可以覆盖开关：
+查看 CAN 服务与接口状态：
+
+```bash
+systemctl status masc-chassis-can.service --no-pager
+ip -details -statistics link show can0
+```
+
+如果修改了 `scripts/setup_can.sh`，再次执行安装命令即可更新系统中的副本。
+
+需要同时启动摄像头和 9002 图像 TCP 时，显式打开两个开关：
 
 ```bash
 ros2 launch masc_user_serial masc_tcp.launch.py \
-  start_chassis_driver:=false \
-  start_hik_camera:=false
+  start_hik_camera:=true image_stream:=true
+```
+
+默认网络配置：本机网线 `169.254.199.100`，上位机 `169.254.199.250`，状态端口 `9001`，
+图片端口 `9002`。如果只要 TCP 通信、不启动底盘驱动，可以关闭底盘开关：
+
+```bash
+ros2 launch masc_user_serial masc_tcp.launch.py \
+  start_chassis_driver:=false
 ```
 
 上位机发回的非 ACK 状态 JSON 会发布到 `/tcp_rx`：
@@ -24,13 +51,15 @@ ros2 topic echo /tcp_rx
 
 ## 相机图片 TCP 输出
 
-运行 `ros2 launch masc_user_serial masc_tcp.launch.py` 会同时启动底盘驱动、海康相机、9001 状态/控制服务和9002图像服务。组合启动强制传入 `show_image:=false`，因此不会启动 OpenCV 预览窗口。图像节点订阅 `/camera/image`，默认发送 JPEG，通过网线接口 `169.254.199.100:9002` 输出；状态节点在 `169.254.199.100:9001` 输出相机与底盘状态，并接收操控电脑的底盘控制命令。两个端口都只接受来自 `169.254.199.250` 的连接。
+显式设置 `start_hik_camera:=true image_stream:=true` 后，总 launch 会同时启动底盘驱动、海康相机、9001 状态/控制服务和9002图像服务。组合启动强制传入 `show_image:=false`，因此不会启动 OpenCV 预览窗口。图像节点订阅 `/camera/image`，默认发送 JPEG，通过网线接口 `169.254.199.100:9002` 输出；状态节点在 `169.254.199.100:9001` 输出相机与底盘状态，并接收操控电脑的底盘控制命令。两个端口都只接受来自 `169.254.199.250` 的连接。
 
 ```bash
-ros2 launch masc_user_serial masc_tcp.launch.py image_topic:=/camera/image image_max_fps:=60.0
+ros2 launch masc_user_serial masc_tcp.launch.py \
+  start_hik_camera:=true image_stream:=true \
+  image_topic:=/camera/image image_max_fps:=60.0
 ```
 
-默认使用 JPEG 图片模式，JPEG 质量为 80，对端收到可直接打开的完整 `.jpg` 图片。默认最多传输 60 帧/秒，慢客户端会跳过中间帧。需要原始 ROS 图像字节时可加 `image_format:=raw`。暂时不需要图像服务可加 `image_stream:=false`；已有其他相机进程时可加 `start_hik_camera:=false`。另一台电脑用网线直连的方法、逐字节协议和 Python 接收程序见 [CAMERA_TCP_PROTOCOL.md](CAMERA_TCP_PROTOCOL.md)。接收程序在 `tools/receive_camera_tcp.py`。
+默认使用 JPEG 图片模式，JPEG 质量为 80，对端收到可直接打开的完整 `.jpg` 图片。默认最多传输 60 帧/秒，慢客户端会跳过中间帧。需要原始 ROS 图像字节时可加 `image_format:=raw`。默认不启动图像服务；已有其他相机进程、只需要 9002 图像 TCP 时，可单独加 `image_stream:=true`。另一台电脑用网线直连的方法、逐字节协议和 Python 接收程序见 [CAMERA_TCP_PROTOCOL.md](CAMERA_TCP_PROTOCOL.md)。接收程序在 `tools/receive_camera_tcp.py`。
 
 只启动图像服务、不启动9001状态服务时，可运行：
 
