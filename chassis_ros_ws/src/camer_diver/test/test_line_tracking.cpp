@@ -639,3 +639,17 @@ TEST(BlueLineTracking, FewSectionFragmentNeedsQualifiedAlignedContext)
   for (const auto & c : joined.candidates) {contextual = contextual || (c.context_supported && c.retained);}
   EXPECT_TRUE(contextual);
 }
+
+TEST(BlueLineTracking, DarkBlueValueFloorKeepsGrayRejected)
+{
+  camer_diver::LineConfig config;
+  cv::Mat image(480, 640, CV_8UC3, cv::Scalar(63, 67, 66));
+  cv::rectangle(image, {305, 0, 31, 480}, cv::Scalar(5, 1, 0), cv::FILLED);
+  EXPECT_TRUE(camer_diver::track_blue_line(image, config).lost);
+  config.value_min = 4;
+  const auto dark_blue = camer_diver::track_blue_line(image, config);
+  EXPECT_FALSE(dark_blue.lost);
+  EXPECT_GT(dark_blue.valid_rows, 40);
+  cv::rectangle(image, {305, 0, 31, 480}, cv::Scalar(5, 5, 5), cv::FILLED);
+  EXPECT_TRUE(camer_diver::track_blue_line(image, config).lost);
+}

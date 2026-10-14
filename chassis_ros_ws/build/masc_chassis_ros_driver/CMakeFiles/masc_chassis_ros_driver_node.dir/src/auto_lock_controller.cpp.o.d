@@ -31,7 +31,7 @@ CMakeFiles/masc_chassis_ros_driver_node.dir/src/auto_lock_controller.cpp.o: \
  /usr/include/c++/13/bits/concept_check.h \
  /usr/include/c++/13/debug/assertions.h \
  /usr/include/c++/13/bits/utility.h \
- /home/tiema/project/masc_chassis/chassis_ros_ws/install/masc_chassis_can_sdk/include/masc_chassis_can_sdk/types.hpp \
+ /home/tiema/project/masc_chassis/chassis_ros_ws/src/masc_chassis_can_sdk/include/masc_chassis_can_sdk/types.hpp \
  /usr/include/c++/13/array /usr/include/c++/13/compare \
  /usr/include/c++/13/bits/functexcept.h \
  /usr/include/c++/13/bits/stl_algobase.h \

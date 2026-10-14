@@ -2,6 +2,7 @@
 /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver/CMakeFiles/masc_chassis_ros_driver_uninstall.dir
 /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver/CMakeFiles/masc_chassis_ros_driver_node.dir
 /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver/CMakeFiles/target_pid_controller_node.dir
+/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver/CMakeFiles/test_auto_lock_controller.dir
 /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver/CMakeFiles/test.dir
 /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver/CMakeFiles/edit_cache.dir
 /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver/CMakeFiles/rebuild_cache.dir
@@ -9,3 +10,12 @@
 /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver/CMakeFiles/install.dir
 /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver/CMakeFiles/install/local.dir
 /home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver/CMakeFiles/install/strip.dir
+/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver/gtest/CMakeFiles/gtest.dir
+/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver/gtest/CMakeFiles/gtest_main.dir
+/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver/gtest/CMakeFiles/test.dir
+/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver/gtest/CMakeFiles/edit_cache.dir
+/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver/gtest/CMakeFiles/rebuild_cache.dir
+/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver/gtest/CMakeFiles/list_install_components.dir
+/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver/gtest/CMakeFiles/install.dir
+/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver/gtest/CMakeFiles/install/local.dir
+/home/tiema/project/masc_chassis/chassis_ros_ws/build/masc_chassis_ros_driver/gtest/CMakeFiles/install/strip.dir

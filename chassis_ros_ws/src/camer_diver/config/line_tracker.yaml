@@ -6,7 +6,7 @@
     hue_low: 100              # OpenCV H 范围 0..179，不是 0..360 度
     hue_high: 130
     saturation_min: 70        # 灰色背景不应成为强蓝色种子
-    value_min: 18
+    value_min: 4              # 本机暗蓝胶带 V≈5..6；保留饱和度/蓝色优势约束
     illumination_support: true # 弱蓝色仅在连通区域含足够强蓝色像素时接纳
     weak_saturation_min: 12
     weak_value_min: 8

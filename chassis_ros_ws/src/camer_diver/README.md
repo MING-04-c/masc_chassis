@@ -188,7 +188,7 @@ ros2 run camer_diver line_tracker_node --ros-args -r __ns:=/camera \
 
 ### 颜色阈值与实时调参
 
-默认值为 H=100..130、S>=70、V>=18，强蓝色还需满足 RGB 相对蓝色优势，保留暗蓝而拒绝轻微偏蓝的灰色。
+当前本机 YAML 为 H=100..130、S>=70、V>=4（暗蓝胶带低照度配置；算法通用默认 V>=18），强蓝色还需满足 RGB 相对蓝色优势，保留暗蓝而拒绝轻微偏蓝的灰色。
 `illumination_support=true` 时，另检测 S>=12、V>=8 且蓝通道相对占优的弱候选。
 弱候选的连通区域必须含至少 `weak_seed_pixels=20` 个强蓝色像素，
 且补充像素距强蓝色不超过 `weak_support_distance=6`，避免向整片背景扩张。
@@ -387,3 +387,10 @@ ROS_DOMAIN_ID=137 ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST python3 src/camer_dive
 
 扫描起点落在蓝线外时，第一对跳变不保证是同一段蓝线的左右边界，示意会标记无效。
 若安装了 GJS，可执行 `gjs visualization/test_line_scan.js` 验证 HTML 中的扫描逻辑。
+
+### 本机暗蓝胶带亮度配置
+
+本机暗蓝胶带像素的实测亮度 V 约为 5..6，色相仍为 108..114，饱和度较高。
+`config/line_tracker.yaml` 的 `value_min` 因此设为 4；不降低饱和度70和蓝通道优势限制。
+这允许很暗但有明显蓝色证据的胶带，低光噪声也可能增加，需同时检查形状和背景。
+反光成纯白的像素仍不能仅靠蓝色阈值恢复。设置在运行中修改不会自动保存。

@@ -223,12 +223,52 @@ target_pid_controller_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/target_pid_controller_node.dir/build.make CMakeFiles/target_pid_controller_node.dir/build
 .PHONY : target_pid_controller_node/fast
 
+#=============================================================================
+# Target rules for targets named test_auto_lock_controller
+
+# Build rule for target.
+test_auto_lock_controller: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_auto_lock_controller
+.PHONY : test_auto_lock_controller
+
+# fast build rule for target.
+test_auto_lock_controller/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_auto_lock_controller.dir/build.make CMakeFiles/test_auto_lock_controller.dir/build
+.PHONY : test_auto_lock_controller/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
 src/auto_lock_controller.o: src/auto_lock_controller.cpp.o
 .PHONY : src/auto_lock_controller.o
 
 # target to build an object file
 src/auto_lock_controller.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/masc_chassis_ros_driver_node.dir/build.make CMakeFiles/masc_chassis_ros_driver_node.dir/src/auto_lock_controller.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_auto_lock_controller.dir/build.make CMakeFiles/test_auto_lock_controller.dir/src/auto_lock_controller.cpp.o
 .PHONY : src/auto_lock_controller.cpp.o
 
 src/auto_lock_controller.i: src/auto_lock_controller.cpp.i
@@ -237,6 +277,7 @@ src/auto_lock_controller.i: src/auto_lock_controller.cpp.i
 # target to preprocess a source file
 src/auto_lock_controller.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/masc_chassis_ros_driver_node.dir/build.make CMakeFiles/masc_chassis_ros_driver_node.dir/src/auto_lock_controller.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_auto_lock_controller.dir/build.make CMakeFiles/test_auto_lock_controller.dir/src/auto_lock_controller.cpp.i
 .PHONY : src/auto_lock_controller.cpp.i
 
 src/auto_lock_controller.s: src/auto_lock_controller.cpp.s
@@ -245,6 +286,7 @@ src/auto_lock_controller.s: src/auto_lock_controller.cpp.s
 # target to generate assembly for a file
 src/auto_lock_controller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/masc_chassis_ros_driver_node.dir/build.make CMakeFiles/masc_chassis_ros_driver_node.dir/src/auto_lock_controller.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_auto_lock_controller.dir/build.make CMakeFiles/test_auto_lock_controller.dir/src/auto_lock_controller.cpp.s
 .PHONY : src/auto_lock_controller.cpp.s
 
 src/chassis_ros_driver_node.o: src/chassis_ros_driver_node.cpp.o
@@ -415,6 +457,30 @@ src/target_pid_controller_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/target_pid_controller_node.dir/build.make CMakeFiles/target_pid_controller_node.dir/src/target_pid_controller_node.cpp.s
 .PHONY : src/target_pid_controller_node.cpp.s
 
+test/test_auto_lock_controller.o: test/test_auto_lock_controller.cpp.o
+.PHONY : test/test_auto_lock_controller.o
+
+# target to build an object file
+test/test_auto_lock_controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_auto_lock_controller.dir/build.make CMakeFiles/test_auto_lock_controller.dir/test/test_auto_lock_controller.cpp.o
+.PHONY : test/test_auto_lock_controller.cpp.o
+
+test/test_auto_lock_controller.i: test/test_auto_lock_controller.cpp.i
+.PHONY : test/test_auto_lock_controller.i
+
+# target to preprocess a source file
+test/test_auto_lock_controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_auto_lock_controller.dir/build.make CMakeFiles/test_auto_lock_controller.dir/test/test_auto_lock_controller.cpp.i
+.PHONY : test/test_auto_lock_controller.cpp.i
+
+test/test_auto_lock_controller.s: test/test_auto_lock_controller.cpp.s
+.PHONY : test/test_auto_lock_controller.s
+
+# target to generate assembly for a file
+test/test_auto_lock_controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_auto_lock_controller.dir/build.make CMakeFiles/test_auto_lock_controller.dir/test/test_auto_lock_controller.cpp.s
+.PHONY : test/test_auto_lock_controller.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -430,8 +496,11 @@ help:
 	@echo "... test"
 	@echo "... masc_chassis_ros_driver_uninstall"
 	@echo "... uninstall"
+	@echo "... gtest"
+	@echo "... gtest_main"
 	@echo "... masc_chassis_ros_driver_node"
 	@echo "... target_pid_controller_node"
+	@echo "... test_auto_lock_controller"
 	@echo "... src/auto_lock_controller.o"
 	@echo "... src/auto_lock_controller.i"
 	@echo "... src/auto_lock_controller.s"
@@ -456,6 +525,9 @@ help:
 	@echo "... src/target_pid_controller_node.o"
 	@echo "... src/target_pid_controller_node.i"
 	@echo "... src/target_pid_controller_node.s"
+	@echo "... test/test_auto_lock_controller.o"
+	@echo "... test/test_auto_lock_controller.i"
+	@echo "... test/test_auto_lock_controller.s"
 .PHONY : help
 
 
